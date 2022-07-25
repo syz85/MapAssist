@@ -264,10 +264,11 @@
             this.tabControl1.Controls.Add(this.tabPage6);
             this.tabControl1.Controls.Add(this.tabPage7);
             this.tabControl1.Controls.Add(this.tabPage4);
-            this.tabControl1.Location = new System.Drawing.Point(12, 135);
+            this.tabControl1.Location = new System.Drawing.Point(16, 156);
+            this.tabControl1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(420, 353);
+            this.tabControl1.Size = new System.Drawing.Size(560, 407);
             this.tabControl1.TabIndex = 0;
             this.tabControl1.TabStop = false;
             // 
@@ -276,11 +277,12 @@
             this.tabPage5.Controls.Add(this.groupBox5);
             this.tabPage5.Controls.Add(this.groupBox4);
             this.tabPage5.Controls.Add(this.grpGameInfo);
-            this.tabPage5.Location = new System.Drawing.Point(4, 22);
+            this.tabPage5.Location = new System.Drawing.Point(4, 25);
+            this.tabPage5.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.tabPage5.Name = "tabPage5";
-            this.tabPage5.Size = new System.Drawing.Size(412, 327);
+            this.tabPage5.Size = new System.Drawing.Size(552, 378);
             this.tabPage5.TabIndex = 4;
-            this.tabPage5.Text = "Main";
+            this.tabPage5.Text = "主要设置";
             this.tabPage5.UseVisualStyleBackColor = true;
             // 
             // groupBox5
@@ -291,31 +293,35 @@
             this.groupBox5.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.groupBox5.Controls.Add(this.cboLanguage);
             this.groupBox5.Controls.Add(this.label11);
-            this.groupBox5.Location = new System.Drawing.Point(11, 256);
+            this.groupBox5.Location = new System.Drawing.Point(15, 295);
+            this.groupBox5.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.groupBox5.Name = "groupBox5";
-            this.groupBox5.Size = new System.Drawing.Size(388, 60);
+            this.groupBox5.Padding = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.groupBox5.Size = new System.Drawing.Size(517, 69);
             this.groupBox5.TabIndex = 25;
             this.groupBox5.TabStop = false;
-            this.groupBox5.Text = "Translation";
+            this.groupBox5.Text = "暗黑2语言";
             // 
             // cboLanguage
             // 
             this.cboLanguage.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cboLanguage.FormattingEnabled = true;
-            this.cboLanguage.Location = new System.Drawing.Point(71, 22);
+            this.cboLanguage.Location = new System.Drawing.Point(95, 25);
+            this.cboLanguage.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.cboLanguage.Name = "cboLanguage";
-            this.cboLanguage.Size = new System.Drawing.Size(146, 21);
+            this.cboLanguage.Size = new System.Drawing.Size(193, 23);
             this.cboLanguage.TabIndex = 14;
             this.cboLanguage.SelectedIndexChanged += new System.EventHandler(this.cboLanguage_SelectedIndexChanged);
             // 
             // label11
             // 
             this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(7, 25);
+            this.label11.Location = new System.Drawing.Point(9, 29);
+            this.label11.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(55, 13);
+            this.label11.Size = new System.Drawing.Size(37, 15);
             this.label11.TabIndex = 13;
-            this.label11.Text = "Language";
+            this.label11.Text = "语言";
             // 
             // groupBox4
             // 
@@ -325,9 +331,11 @@
             this.groupBox4.Controls.Add(this.txtD2Path);
             this.groupBox4.Controls.Add(this.btnBrowseD2Location);
             this.groupBox4.Controls.Add(this.label1);
-            this.groupBox4.Location = new System.Drawing.Point(11, 172);
+            this.groupBox4.Location = new System.Drawing.Point(15, 198);
+            this.groupBox4.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Size = new System.Drawing.Size(388, 69);
+            this.groupBox4.Padding = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.groupBox4.Size = new System.Drawing.Size(517, 80);
             this.groupBox4.TabIndex = 24;
             this.groupBox4.TabStop = false;
             this.groupBox4.Text = "D2 LOD 1.13c Path";
@@ -337,18 +345,20 @@
             this.txtD2Path.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.txtD2Path.Enabled = false;
-            this.txtD2Path.Location = new System.Drawing.Point(10, 23);
+            this.txtD2Path.Location = new System.Drawing.Point(13, 27);
+            this.txtD2Path.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.txtD2Path.Name = "txtD2Path";
-            this.txtD2Path.Size = new System.Drawing.Size(283, 20);
+            this.txtD2Path.Size = new System.Drawing.Size(376, 25);
             this.txtD2Path.TabIndex = 7;
             this.txtD2Path.TextChanged += new System.EventHandler(this.txtD2Path_TextChanged);
             // 
             // btnBrowseD2Location
             // 
             this.btnBrowseD2Location.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnBrowseD2Location.Location = new System.Drawing.Point(304, 20);
+            this.btnBrowseD2Location.Location = new System.Drawing.Point(405, 23);
+            this.btnBrowseD2Location.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnBrowseD2Location.Name = "btnBrowseD2Location";
-            this.btnBrowseD2Location.Size = new System.Drawing.Size(75, 23);
+            this.btnBrowseD2Location.Size = new System.Drawing.Size(100, 27);
             this.btnBrowseD2Location.TabIndex = 17;
             this.btnBrowseD2Location.Text = "Browse";
             this.btnBrowseD2Location.UseVisualStyleBackColor = true;
@@ -359,9 +369,10 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 7F);
             this.label1.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.label1.Location = new System.Drawing.Point(7, 46);
+            this.label1.Location = new System.Drawing.Point(9, 53);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(133, 13);
+            this.label1.Size = new System.Drawing.Size(150, 15);
             this.label1.TabIndex = 15;
             this.label1.Text = "Leave blank to auto-detect";
             // 
@@ -382,23 +393,26 @@
             this.grpGameInfo.Controls.Add(this.chkShowGameTimer);
             this.grpGameInfo.Controls.Add(this.chkShowArea);
             this.grpGameInfo.Controls.Add(this.chkShowGameName);
-            this.grpGameInfo.Location = new System.Drawing.Point(11, 9);
+            this.grpGameInfo.Location = new System.Drawing.Point(15, 10);
+            this.grpGameInfo.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.grpGameInfo.Name = "grpGameInfo";
-            this.grpGameInfo.Size = new System.Drawing.Size(388, 144);
+            this.grpGameInfo.Padding = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.grpGameInfo.Size = new System.Drawing.Size(517, 166);
             this.grpGameInfo.TabIndex = 23;
             this.grpGameInfo.TabStop = false;
-            this.grpGameInfo.Text = "Game Info";
+            this.grpGameInfo.Text = "游戏信息";
             // 
             // chkShowAreaLevel
             // 
             this.chkShowAreaLevel.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.chkShowAreaLevel.AutoSize = true;
-            this.chkShowAreaLevel.Location = new System.Drawing.Point(192, 65);
+            this.chkShowAreaLevel.Location = new System.Drawing.Point(256, 75);
+            this.chkShowAreaLevel.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.chkShowAreaLevel.Name = "chkShowAreaLevel";
-            this.chkShowAreaLevel.Size = new System.Drawing.Size(77, 17);
+            this.chkShowAreaLevel.Size = new System.Drawing.Size(89, 19);
             this.chkShowAreaLevel.TabIndex = 39;
-            this.chkShowAreaLevel.Text = "Area Level";
+            this.chkShowAreaLevel.Text = "场景等级";
             this.chkShowAreaLevel.UseVisualStyleBackColor = true;
             this.chkShowAreaLevel.CheckedChanged += new System.EventHandler(this.chkShowAreaLevel_CheckedChanged);
             // 
@@ -408,9 +422,10 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.cboGameInfoPosition.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cboGameInfoPosition.FormattingEnabled = true;
-            this.cboGameInfoPosition.Location = new System.Drawing.Point(239, 111);
+            this.cboGameInfoPosition.Location = new System.Drawing.Point(319, 128);
+            this.cboGameInfoPosition.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.cboGameInfoPosition.Name = "cboGameInfoPosition";
-            this.cboGameInfoPosition.Size = new System.Drawing.Size(140, 21);
+            this.cboGameInfoPosition.Size = new System.Drawing.Size(185, 23);
             this.cboGameInfoPosition.TabIndex = 36;
             this.cboGameInfoPosition.SelectedIndexChanged += new System.EventHandler(this.cboGameInfoPosition_SelectedIndexChanged);
             // 
@@ -419,20 +434,22 @@
             this.lblGameInfoPosition.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.lblGameInfoPosition.AutoSize = true;
-            this.lblGameInfoPosition.Location = new System.Drawing.Point(189, 114);
+            this.lblGameInfoPosition.Location = new System.Drawing.Point(252, 132);
+            this.lblGameInfoPosition.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblGameInfoPosition.Name = "lblGameInfoPosition";
-            this.lblGameInfoPosition.Size = new System.Drawing.Size(44, 13);
+            this.lblGameInfoPosition.Size = new System.Drawing.Size(67, 15);
             this.lblGameInfoPosition.TabIndex = 35;
-            this.lblGameInfoPosition.Text = "Position";
+            this.lblGameInfoPosition.Text = "显示位置";
             // 
             // chkGameInfoTextShadow
             // 
             this.chkGameInfoTextShadow.AutoSize = true;
-            this.chkGameInfoTextShadow.Location = new System.Drawing.Point(11, 119);
+            this.chkGameInfoTextShadow.Location = new System.Drawing.Point(15, 137);
+            this.chkGameInfoTextShadow.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.chkGameInfoTextShadow.Name = "chkGameInfoTextShadow";
-            this.chkGameInfoTextShadow.Size = new System.Drawing.Size(89, 17);
+            this.chkGameInfoTextShadow.Size = new System.Drawing.Size(89, 19);
             this.chkGameInfoTextShadow.TabIndex = 34;
-            this.chkGameInfoTextShadow.Text = "Text Shadow";
+            this.chkGameInfoTextShadow.Text = "文字阴影";
             this.chkGameInfoTextShadow.UseVisualStyleBackColor = true;
             this.chkGameInfoTextShadow.CheckedChanged += new System.EventHandler(this.chkGameInfoTextShadow_CheckedChanged);
             // 
@@ -441,22 +458,24 @@
             this.chkShowOverlayFPS.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.chkShowOverlayFPS.AutoSize = true;
-            this.chkShowOverlayFPS.Location = new System.Drawing.Point(192, 88);
+            this.chkShowOverlayFPS.Location = new System.Drawing.Point(256, 102);
+            this.chkShowOverlayFPS.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.chkShowOverlayFPS.Name = "chkShowOverlayFPS";
-            this.chkShowOverlayFPS.Size = new System.Drawing.Size(85, 17);
+            this.chkShowOverlayFPS.Size = new System.Drawing.Size(53, 19);
             this.chkShowOverlayFPS.TabIndex = 2;
-            this.chkShowOverlayFPS.Text = "Overlay FPS";
+            this.chkShowOverlayFPS.Text = "FPS";
             this.chkShowOverlayFPS.UseVisualStyleBackColor = true;
             this.chkShowOverlayFPS.CheckedChanged += new System.EventHandler(this.chkShowOverlayFPS_CheckedChanged);
             // 
             // chkShowDifficulty
             // 
             this.chkShowDifficulty.AutoSize = true;
-            this.chkShowDifficulty.Location = new System.Drawing.Point(11, 65);
+            this.chkShowDifficulty.Location = new System.Drawing.Point(15, 75);
+            this.chkShowDifficulty.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.chkShowDifficulty.Name = "chkShowDifficulty";
-            this.chkShowDifficulty.Size = new System.Drawing.Size(66, 17);
+            this.chkShowDifficulty.Size = new System.Drawing.Size(59, 19);
             this.chkShowDifficulty.TabIndex = 38;
-            this.chkShowDifficulty.Text = "Difficulty";
+            this.chkShowDifficulty.Text = "难度";
             this.chkShowDifficulty.UseVisualStyleBackColor = true;
             this.chkShowDifficulty.CheckedChanged += new System.EventHandler(this.chkShowDifficulty_CheckedChanged);
             // 
@@ -465,9 +484,10 @@
             this.btnClearGameInfoFont.FlatAppearance.BorderSize = 0;
             this.btnClearGameInfoFont.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnClearGameInfoFont.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F);
-            this.btnClearGameInfoFont.Location = new System.Drawing.Point(85, 88);
+            this.btnClearGameInfoFont.Location = new System.Drawing.Point(113, 102);
+            this.btnClearGameInfoFont.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnClearGameInfoFont.Name = "btnClearGameInfoFont";
-            this.btnClearGameInfoFont.Size = new System.Drawing.Size(23, 23);
+            this.btnClearGameInfoFont.Size = new System.Drawing.Size(31, 27);
             this.btnClearGameInfoFont.TabIndex = 33;
             this.btnClearGameInfoFont.Text = "X";
             this.btnClearGameInfoFont.UseVisualStyleBackColor = true;
@@ -476,11 +496,12 @@
             // btnGameInfoFont
             // 
             this.btnGameInfoFont.BackColor = System.Drawing.Color.Transparent;
-            this.btnGameInfoFont.Location = new System.Drawing.Point(10, 88);
+            this.btnGameInfoFont.Location = new System.Drawing.Point(13, 102);
+            this.btnGameInfoFont.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnGameInfoFont.Name = "btnGameInfoFont";
-            this.btnGameInfoFont.Size = new System.Drawing.Size(75, 23);
+            this.btnGameInfoFont.Size = new System.Drawing.Size(100, 27);
             this.btnGameInfoFont.TabIndex = 32;
-            this.btnGameInfoFont.Text = "Font";
+            this.btnGameInfoFont.Text = "字体";
             this.btnGameInfoFont.UseVisualStyleBackColor = false;
             this.btnGameInfoFont.Click += new System.EventHandler(this.btnGameInfoFont_Click);
             // 
@@ -489,22 +510,24 @@
             this.chkShowAreaTimer.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.chkShowAreaTimer.AutoSize = true;
-            this.chkShowAreaTimer.Location = new System.Drawing.Point(192, 42);
+            this.chkShowAreaTimer.Location = new System.Drawing.Point(256, 48);
+            this.chkShowAreaTimer.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.chkShowAreaTimer.Name = "chkShowAreaTimer";
-            this.chkShowAreaTimer.Size = new System.Drawing.Size(77, 17);
+            this.chkShowAreaTimer.Size = new System.Drawing.Size(89, 19);
             this.chkShowAreaTimer.TabIndex = 41;
-            this.chkShowAreaTimer.Text = "Area Timer";
+            this.chkShowAreaTimer.Text = "场景时长";
             this.chkShowAreaTimer.UseVisualStyleBackColor = true;
             this.chkShowAreaTimer.CheckedChanged += new System.EventHandler(this.chkShowAreaTimer_CheckedChanged);
             // 
             // chkShowGameTimer
             // 
             this.chkShowGameTimer.AutoSize = true;
-            this.chkShowGameTimer.Location = new System.Drawing.Point(11, 42);
+            this.chkShowGameTimer.Location = new System.Drawing.Point(15, 48);
+            this.chkShowGameTimer.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.chkShowGameTimer.Name = "chkShowGameTimer";
-            this.chkShowGameTimer.Size = new System.Drawing.Size(83, 17);
+            this.chkShowGameTimer.Size = new System.Drawing.Size(89, 19);
             this.chkShowGameTimer.TabIndex = 40;
-            this.chkShowGameTimer.Text = "Game Timer";
+            this.chkShowGameTimer.Text = "游戏时长";
             this.chkShowGameTimer.UseVisualStyleBackColor = true;
             this.chkShowGameTimer.CheckedChanged += new System.EventHandler(this.chkShowGameTimer_CheckedChanged);
             // 
@@ -513,22 +536,24 @@
             this.chkShowArea.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.chkShowArea.AutoSize = true;
-            this.chkShowArea.Location = new System.Drawing.Point(192, 19);
+            this.chkShowArea.Location = new System.Drawing.Point(256, 22);
+            this.chkShowArea.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.chkShowArea.Name = "chkShowArea";
-            this.chkShowArea.Size = new System.Drawing.Size(48, 17);
+            this.chkShowArea.Size = new System.Drawing.Size(89, 19);
             this.chkShowArea.TabIndex = 16;
-            this.chkShowArea.Text = "Area";
+            this.chkShowArea.Text = "场景名称";
             this.chkShowArea.UseVisualStyleBackColor = true;
             this.chkShowArea.CheckedChanged += new System.EventHandler(this.chkShowArea_CheckedChanged);
             // 
             // chkShowGameName
             // 
             this.chkShowGameName.AutoSize = true;
-            this.chkShowGameName.Location = new System.Drawing.Point(11, 19);
+            this.chkShowGameName.Location = new System.Drawing.Point(15, 22);
+            this.chkShowGameName.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.chkShowGameName.Name = "chkShowGameName";
-            this.chkShowGameName.Size = new System.Drawing.Size(120, 17);
+            this.chkShowGameName.Size = new System.Drawing.Size(97, 19);
             this.chkShowGameName.TabIndex = 37;
-            this.chkShowGameName.Text = "Game Name && Pass";
+            this.chkShowGameName.Text = "房间/密码";
             this.chkShowGameName.UseVisualStyleBackColor = true;
             this.chkShowGameName.CheckedChanged += new System.EventHandler(this.chkShowGameName_CheckedChanged);
             // 
@@ -536,12 +561,13 @@
             // 
             this.tabPage1.AutoScroll = true;
             this.tabPage1.Controls.Add(this.groupBox1);
-            this.tabPage1.Location = new System.Drawing.Point(4, 22);
+            this.tabPage1.Location = new System.Drawing.Point(4, 25);
+            this.tabPage1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.tabPage1.Name = "tabPage1";
-            this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(412, 327);
+            this.tabPage1.Padding = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.tabPage1.Size = new System.Drawing.Size(552, 378);
             this.tabPage1.TabIndex = 0;
-            this.tabPage1.Text = "Map";
+            this.tabPage1.Text = "地图";
             this.tabPage1.UseVisualStyleBackColor = true;
             // 
             // groupBox1
@@ -574,21 +600,24 @@
             this.groupBox1.Controls.Add(this.chkToggleViaMap);
             this.groupBox1.Controls.Add(this.lblAllIconOpacity);
             this.groupBox1.Controls.Add(this.chkToggleViaPanels);
-            this.groupBox1.Location = new System.Drawing.Point(11, 9);
+            this.groupBox1.Location = new System.Drawing.Point(15, 10);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(388, 308);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.groupBox1.Size = new System.Drawing.Size(517, 355);
             this.groupBox1.TabIndex = 21;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Rendering";
+            this.groupBox1.Text = "渲染";
             // 
             // btnClearExpRangeColor
             // 
             this.btnClearExpRangeColor.FlatAppearance.BorderSize = 0;
             this.btnClearExpRangeColor.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnClearExpRangeColor.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F);
-            this.btnClearExpRangeColor.Location = new System.Drawing.Point(360, 273);
+            this.btnClearExpRangeColor.Location = new System.Drawing.Point(480, 315);
+            this.btnClearExpRangeColor.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnClearExpRangeColor.Name = "btnClearExpRangeColor";
-            this.btnClearExpRangeColor.Size = new System.Drawing.Size(23, 23);
+            this.btnClearExpRangeColor.Size = new System.Drawing.Size(31, 27);
             this.btnClearExpRangeColor.TabIndex = 27;
             this.btnClearExpRangeColor.Text = "X";
             this.btnClearExpRangeColor.UseVisualStyleBackColor = true;
@@ -597,22 +626,24 @@
             // btnExpRangeColor
             // 
             this.btnExpRangeColor.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnExpRangeColor.Location = new System.Drawing.Point(262, 273);
+            this.btnExpRangeColor.Location = new System.Drawing.Point(349, 315);
+            this.btnExpRangeColor.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnExpRangeColor.Name = "btnExpRangeColor";
-            this.btnExpRangeColor.Size = new System.Drawing.Size(97, 23);
+            this.btnExpRangeColor.Size = new System.Drawing.Size(129, 27);
             this.btnExpRangeColor.TabIndex = 28;
-            this.btnExpRangeColor.Text = "Exp Range Color";
+            this.btnExpRangeColor.Text = "经验区颜色";
             this.btnExpRangeColor.UseVisualStyleBackColor = true;
             this.btnExpRangeColor.Click += new System.EventHandler(this.btnExpRangeColor_Click);
             // 
             // chkMonsterHealthBar
             // 
             this.chkMonsterHealthBar.AutoSize = true;
-            this.chkMonsterHealthBar.Location = new System.Drawing.Point(10, 179);
+            this.chkMonsterHealthBar.Location = new System.Drawing.Point(13, 207);
+            this.chkMonsterHealthBar.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.chkMonsterHealthBar.Name = "chkMonsterHealthBar";
-            this.chkMonsterHealthBar.Size = new System.Drawing.Size(147, 17);
+            this.chkMonsterHealthBar.Size = new System.Drawing.Size(121, 19);
             this.chkMonsterHealthBar.TabIndex = 26;
-            this.chkMonsterHealthBar.Text = "Show Monster Health Bar";
+            this.chkMonsterHealthBar.Text = "显示BOSS血条";
             this.chkMonsterHealthBar.UseVisualStyleBackColor = true;
             this.chkMonsterHealthBar.CheckedChanged += new System.EventHandler(this.chkMonsterHealthBar_CheckedChanged);
             // 
@@ -621,9 +652,10 @@
             this.btnClearBorderColor.FlatAppearance.BorderSize = 0;
             this.btnClearBorderColor.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnClearBorderColor.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F);
-            this.btnClearBorderColor.Location = new System.Drawing.Point(229, 273);
+            this.btnClearBorderColor.Location = new System.Drawing.Point(305, 315);
+            this.btnClearBorderColor.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnClearBorderColor.Name = "btnClearBorderColor";
-            this.btnClearBorderColor.Size = new System.Drawing.Size(23, 23);
+            this.btnClearBorderColor.Size = new System.Drawing.Size(31, 27);
             this.btnClearBorderColor.TabIndex = 23;
             this.btnClearBorderColor.Text = "X";
             this.btnClearBorderColor.UseVisualStyleBackColor = true;
@@ -634,9 +666,10 @@
             this.btnClearWalkableColor.FlatAppearance.BorderSize = 0;
             this.btnClearWalkableColor.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnClearWalkableColor.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F);
-            this.btnClearWalkableColor.Location = new System.Drawing.Point(102, 273);
+            this.btnClearWalkableColor.Location = new System.Drawing.Point(136, 315);
+            this.btnClearWalkableColor.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnClearWalkableColor.Name = "btnClearWalkableColor";
-            this.btnClearWalkableColor.Size = new System.Drawing.Size(23, 23);
+            this.btnClearWalkableColor.Size = new System.Drawing.Size(31, 27);
             this.btnClearWalkableColor.TabIndex = 22;
             this.btnClearWalkableColor.Text = "X";
             this.btnClearWalkableColor.UseVisualStyleBackColor = true;
@@ -645,55 +678,60 @@
             // chkStickToLastGameWindow
             // 
             this.chkStickToLastGameWindow.AutoSize = true;
-            this.chkStickToLastGameWindow.Location = new System.Drawing.Point(10, 248);
+            this.chkStickToLastGameWindow.Location = new System.Drawing.Point(13, 286);
+            this.chkStickToLastGameWindow.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.chkStickToLastGameWindow.Name = "chkStickToLastGameWindow";
-            this.chkStickToLastGameWindow.Size = new System.Drawing.Size(236, 17);
+            this.chkStickToLastGameWindow.Size = new System.Drawing.Size(194, 19);
             this.chkStickToLastGameWindow.TabIndex = 25;
-            this.chkStickToLastGameWindow.Text = "Keep Overlay Active On Last Game Window";
+            this.chkStickToLastGameWindow.Text = "失去焦点时依然显示地图";
             this.chkStickToLastGameWindow.UseVisualStyleBackColor = true;
             this.chkStickToLastGameWindow.CheckedChanged += new System.EventHandler(this.chkStickToLastGameWindow_CheckedChanged);
             // 
             // btnBorderColor
             // 
             this.btnBorderColor.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnBorderColor.Location = new System.Drawing.Point(137, 273);
+            this.btnBorderColor.Location = new System.Drawing.Point(183, 315);
+            this.btnBorderColor.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnBorderColor.Name = "btnBorderColor";
-            this.btnBorderColor.Size = new System.Drawing.Size(91, 23);
+            this.btnBorderColor.Size = new System.Drawing.Size(121, 27);
             this.btnBorderColor.TabIndex = 23;
-            this.btnBorderColor.Text = "Border Color";
+            this.btnBorderColor.Text = "边框颜色";
             this.btnBorderColor.UseVisualStyleBackColor = true;
             this.btnBorderColor.Click += new System.EventHandler(this.btnBorderColor_Click);
             // 
             // btnWalkableColor
             // 
             this.btnWalkableColor.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnWalkableColor.Location = new System.Drawing.Point(10, 273);
+            this.btnWalkableColor.Location = new System.Drawing.Point(13, 315);
+            this.btnWalkableColor.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnWalkableColor.Name = "btnWalkableColor";
-            this.btnWalkableColor.Size = new System.Drawing.Size(91, 23);
+            this.btnWalkableColor.Size = new System.Drawing.Size(121, 27);
             this.btnWalkableColor.TabIndex = 22;
-            this.btnWalkableColor.Text = "Walkable Color";
+            this.btnWalkableColor.Text = "地图颜色";
             this.btnWalkableColor.UseVisualStyleBackColor = true;
             this.btnWalkableColor.Click += new System.EventHandler(this.btnWalkableColor_Click);
             // 
             // chkOverlayMode
             // 
             this.chkOverlayMode.AutoSize = true;
-            this.chkOverlayMode.Location = new System.Drawing.Point(10, 156);
+            this.chkOverlayMode.Location = new System.Drawing.Point(13, 180);
+            this.chkOverlayMode.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.chkOverlayMode.Name = "chkOverlayMode";
-            this.chkOverlayMode.Size = new System.Drawing.Size(92, 17);
+            this.chkOverlayMode.Size = new System.Drawing.Size(89, 19);
             this.chkOverlayMode.TabIndex = 5;
-            this.chkOverlayMode.Text = "Overlay Mode";
+            this.chkOverlayMode.Text = "全屏模式";
             this.chkOverlayMode.UseVisualStyleBackColor = true;
             this.chkOverlayMode.CheckedChanged += new System.EventHandler(this.chkOverlayMode_CheckedChanged);
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(169, 156);
+            this.label2.Location = new System.Drawing.Point(225, 180);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(44, 13);
+            this.label2.Size = new System.Drawing.Size(67, 15);
             this.label2.TabIndex = 7;
-            this.label2.Text = "Position";
+            this.label2.Text = "地图位置";
             // 
             // cboPosition
             // 
@@ -702,9 +740,10 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.cboPosition.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cboPosition.FormattingEnabled = true;
-            this.cboPosition.Location = new System.Drawing.Point(222, 151);
+            this.cboPosition.Location = new System.Drawing.Point(296, 174);
+            this.cboPosition.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.cboPosition.Name = "cboPosition";
-            this.cboPosition.Size = new System.Drawing.Size(160, 21);
+            this.cboPosition.Size = new System.Drawing.Size(212, 23);
             this.cboPosition.TabIndex = 6;
             this.cboPosition.SelectedIndexChanged += new System.EventHandler(this.cboPosition_SelectedIndexChanged);
             // 
@@ -715,11 +754,12 @@
             this.mapZoom.AutoSize = false;
             this.mapZoom.BackColor = System.Drawing.Color.White;
             this.mapZoom.LargeChange = 1;
-            this.mapZoom.Location = new System.Drawing.Point(79, 118);
+            this.mapZoom.Location = new System.Drawing.Point(105, 136);
+            this.mapZoom.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.mapZoom.Maximum = 25;
             this.mapZoom.Minimum = 1;
             this.mapZoom.Name = "mapZoom";
-            this.mapZoom.Size = new System.Drawing.Size(266, 27);
+            this.mapZoom.Size = new System.Drawing.Size(355, 31);
             this.mapZoom.TabIndex = 13;
             this.mapZoom.Value = 1;
             this.mapZoom.Scroll += new System.EventHandler(this.mapZoom_Scroll);
@@ -732,10 +772,11 @@
             this.mapSize.AutoSize = false;
             this.mapSize.BackColor = System.Drawing.Color.White;
             this.mapSize.LargeChange = 1;
-            this.mapSize.Location = new System.Drawing.Point(79, 85);
+            this.mapSize.Location = new System.Drawing.Point(105, 98);
+            this.mapSize.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.mapSize.Maximum = 16;
             this.mapSize.Name = "mapSize";
-            this.mapSize.Size = new System.Drawing.Size(266, 27);
+            this.mapSize.Size = new System.Drawing.Size(355, 31);
             this.mapSize.SmallChange = 25;
             this.mapSize.TabIndex = 10;
             this.mapSize.Scroll += new System.EventHandler(this.mapSize_Scroll);
@@ -746,9 +787,10 @@
             this.lblMapZoomValue.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.lblMapZoomValue.AutoSize = true;
             this.lblMapZoomValue.BackColor = System.Drawing.Color.Transparent;
-            this.lblMapZoomValue.Location = new System.Drawing.Point(351, 121);
+            this.lblMapZoomValue.Location = new System.Drawing.Point(468, 140);
+            this.lblMapZoomValue.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblMapZoomValue.Name = "lblMapZoomValue";
-            this.lblMapZoomValue.Size = new System.Drawing.Size(31, 13);
+            this.lblMapZoomValue.Size = new System.Drawing.Size(39, 15);
             this.lblMapZoomValue.TabIndex = 21;
             this.lblMapZoomValue.Text = "1000";
             this.lblMapZoomValue.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -757,20 +799,22 @@
             // 
             this.lblZoom.AutoSize = true;
             this.lblZoom.BackColor = System.Drawing.Color.Transparent;
-            this.lblZoom.Location = new System.Drawing.Point(7, 121);
+            this.lblZoom.Location = new System.Drawing.Point(9, 140);
+            this.lblZoom.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblZoom.Name = "lblZoom";
-            this.lblZoom.Size = new System.Drawing.Size(63, 13);
+            this.lblZoom.Size = new System.Drawing.Size(67, 15);
             this.lblZoom.TabIndex = 14;
-            this.lblZoom.Text = "Zoom Level";
+            this.lblZoom.Text = "缩放等级";
             // 
             // lblMapSizeValue
             // 
             this.lblMapSizeValue.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.lblMapSizeValue.AutoSize = true;
             this.lblMapSizeValue.BackColor = System.Drawing.Color.Transparent;
-            this.lblMapSizeValue.Location = new System.Drawing.Point(351, 88);
+            this.lblMapSizeValue.Location = new System.Drawing.Point(468, 102);
+            this.lblMapSizeValue.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblMapSizeValue.Name = "lblMapSizeValue";
-            this.lblMapSizeValue.Size = new System.Drawing.Size(31, 13);
+            this.lblMapSizeValue.Size = new System.Drawing.Size(39, 15);
             this.lblMapSizeValue.TabIndex = 20;
             this.lblMapSizeValue.Text = "1000";
             this.lblMapSizeValue.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -782,10 +826,11 @@
             this.allIconOpacity.AutoSize = false;
             this.allIconOpacity.BackColor = System.Drawing.Color.White;
             this.allIconOpacity.LargeChange = 1;
-            this.allIconOpacity.Location = new System.Drawing.Point(79, 52);
+            this.allIconOpacity.Location = new System.Drawing.Point(105, 60);
+            this.allIconOpacity.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.allIconOpacity.Maximum = 20;
             this.allIconOpacity.Name = "allIconOpacity";
-            this.allIconOpacity.Size = new System.Drawing.Size(266, 27);
+            this.allIconOpacity.Size = new System.Drawing.Size(355, 31);
             this.allIconOpacity.TabIndex = 3;
             this.allIconOpacity.Scroll += new System.EventHandler(this.allIconOpacity_Scroll);
             this.allIconOpacity.MouseWheel += new System.Windows.Forms.MouseEventHandler(this.IgnoreMouseWheel);
@@ -794,20 +839,22 @@
             // 
             this.lblMapSize.AutoSize = true;
             this.lblMapSize.BackColor = System.Drawing.Color.Transparent;
-            this.lblMapSize.Location = new System.Drawing.Point(7, 88);
+            this.lblMapSize.Location = new System.Drawing.Point(9, 102);
+            this.lblMapSize.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblMapSize.Name = "lblMapSize";
-            this.lblMapSize.Size = new System.Drawing.Size(51, 13);
+            this.lblMapSize.Size = new System.Drawing.Size(67, 15);
             this.lblMapSize.TabIndex = 11;
-            this.lblMapSize.Text = "Map Size";
+            this.lblMapSize.Text = "地图尺寸";
             // 
             // lblAllIconOpacityValue
             // 
             this.lblAllIconOpacityValue.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.lblAllIconOpacityValue.AutoSize = true;
             this.lblAllIconOpacityValue.BackColor = System.Drawing.Color.Transparent;
-            this.lblAllIconOpacityValue.Location = new System.Drawing.Point(351, 55);
+            this.lblAllIconOpacityValue.Location = new System.Drawing.Point(468, 63);
+            this.lblAllIconOpacityValue.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblAllIconOpacityValue.Name = "lblAllIconOpacityValue";
-            this.lblAllIconOpacityValue.Size = new System.Drawing.Size(31, 13);
+            this.lblAllIconOpacityValue.Size = new System.Drawing.Size(39, 15);
             this.lblAllIconOpacityValue.TabIndex = 5;
             this.lblAllIconOpacityValue.Text = "1000";
             this.lblAllIconOpacityValue.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -817,9 +864,10 @@
             this.lblOpacityValue.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.lblOpacityValue.AutoSize = true;
             this.lblOpacityValue.BackColor = System.Drawing.Color.Transparent;
-            this.lblOpacityValue.Location = new System.Drawing.Point(351, 22);
+            this.lblOpacityValue.Location = new System.Drawing.Point(468, 25);
+            this.lblOpacityValue.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblOpacityValue.Name = "lblOpacityValue";
-            this.lblOpacityValue.Size = new System.Drawing.Size(31, 13);
+            this.lblOpacityValue.Size = new System.Drawing.Size(39, 15);
             this.lblOpacityValue.TabIndex = 3;
             this.lblOpacityValue.Text = "1000";
             this.lblOpacityValue.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -831,10 +879,11 @@
             this.opacity.AutoSize = false;
             this.opacity.BackColor = System.Drawing.Color.White;
             this.opacity.LargeChange = 1;
-            this.opacity.Location = new System.Drawing.Point(79, 19);
+            this.opacity.Location = new System.Drawing.Point(105, 22);
+            this.opacity.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.opacity.Maximum = 20;
             this.opacity.Name = "opacity";
-            this.opacity.Size = new System.Drawing.Size(266, 27);
+            this.opacity.Size = new System.Drawing.Size(355, 31);
             this.opacity.TabIndex = 1;
             this.opacity.Scroll += new System.EventHandler(this.opacity_Scroll);
             this.opacity.MouseWheel += new System.Windows.Forms.MouseEventHandler(this.IgnoreMouseWheel);
@@ -843,20 +892,22 @@
             // 
             this.lblOpacity.AutoSize = true;
             this.lblOpacity.BackColor = System.Drawing.Color.Transparent;
-            this.lblOpacity.Location = new System.Drawing.Point(6, 22);
+            this.lblOpacity.Location = new System.Drawing.Point(8, 25);
+            this.lblOpacity.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblOpacity.Name = "lblOpacity";
-            this.lblOpacity.Size = new System.Drawing.Size(67, 13);
+            this.lblOpacity.Size = new System.Drawing.Size(97, 15);
             this.lblOpacity.TabIndex = 2;
-            this.lblOpacity.Text = "Map Opacity";
+            this.lblOpacity.Text = "地图不透明度";
             // 
             // chkToggleViaMap
             // 
             this.chkToggleViaMap.AutoSize = true;
-            this.chkToggleViaMap.Location = new System.Drawing.Point(10, 202);
+            this.chkToggleViaMap.Location = new System.Drawing.Point(13, 233);
+            this.chkToggleViaMap.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.chkToggleViaMap.Name = "chkToggleViaMap";
-            this.chkToggleViaMap.Size = new System.Drawing.Size(177, 17);
+            this.chkToggleViaMap.Size = new System.Drawing.Size(164, 19);
             this.chkToggleViaMap.TabIndex = 8;
-            this.chkToggleViaMap.Text = "Show/Hide Using In-Game Map";
+            this.chkToggleViaMap.Text = "使用内置地图快捷键";
             this.chkToggleViaMap.UseVisualStyleBackColor = true;
             this.chkToggleViaMap.CheckedChanged += new System.EventHandler(this.chkToggleViaMap_CheckedChanged);
             // 
@@ -864,20 +915,22 @@
             // 
             this.lblAllIconOpacity.AutoSize = true;
             this.lblAllIconOpacity.BackColor = System.Drawing.Color.Transparent;
-            this.lblAllIconOpacity.Location = new System.Drawing.Point(6, 55);
+            this.lblAllIconOpacity.Location = new System.Drawing.Point(8, 63);
+            this.lblAllIconOpacity.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblAllIconOpacity.Name = "lblAllIconOpacity";
-            this.lblAllIconOpacity.Size = new System.Drawing.Size(67, 13);
+            this.lblAllIconOpacity.Size = new System.Drawing.Size(97, 15);
             this.lblAllIconOpacity.TabIndex = 4;
-            this.lblAllIconOpacity.Text = "Icon Opacity";
+            this.lblAllIconOpacity.Text = "图标不透明度";
             // 
             // chkToggleViaPanels
             // 
             this.chkToggleViaPanels.AutoSize = true;
-            this.chkToggleViaPanels.Location = new System.Drawing.Point(10, 225);
+            this.chkToggleViaPanels.Location = new System.Drawing.Point(13, 260);
+            this.chkToggleViaPanels.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.chkToggleViaPanels.Name = "chkToggleViaPanels";
-            this.chkToggleViaPanels.Size = new System.Drawing.Size(206, 17);
+            this.chkToggleViaPanels.Size = new System.Drawing.Size(209, 19);
             this.chkToggleViaPanels.TabIndex = 9;
-            this.chkToggleViaPanels.Text = "Hide When In-Game Menus Are Open";
+            this.chkToggleViaPanels.Text = "游戏中菜单打开时自动隐藏";
             this.chkToggleViaPanels.UseVisualStyleBackColor = true;
             this.chkToggleViaPanels.CheckedChanged += new System.EventHandler(this.chkToggleViaPanels_CheckedChanged);
             // 
@@ -886,12 +939,13 @@
             this.tabPage3.Controls.Add(this.groupBox7);
             this.tabPage3.Controls.Add(this.grpLines);
             this.tabPage3.Controls.Add(this.groupBox3);
-            this.tabPage3.Location = new System.Drawing.Point(4, 22);
+            this.tabPage3.Location = new System.Drawing.Point(4, 25);
+            this.tabPage3.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.tabPage3.Name = "tabPage3";
-            this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage3.Size = new System.Drawing.Size(412, 327);
+            this.tabPage3.Padding = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.tabPage3.Size = new System.Drawing.Size(552, 378);
             this.tabPage3.TabIndex = 2;
-            this.tabPage3.Text = "Overlay";
+            this.tabPage3.Text = "辅助";
             this.tabPage3.UseVisualStyleBackColor = true;
             // 
             // groupBox7
@@ -906,98 +960,108 @@
             this.groupBox7.Controls.Add(this.chkMana);
             this.groupBox7.Controls.Add(this.chkLifePerc);
             this.groupBox7.Controls.Add(this.chkLife);
-            this.groupBox7.Location = new System.Drawing.Point(11, 145);
+            this.groupBox7.Location = new System.Drawing.Point(15, 167);
+            this.groupBox7.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.groupBox7.Name = "groupBox7";
-            this.groupBox7.Size = new System.Drawing.Size(388, 90);
+            this.groupBox7.Padding = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.groupBox7.Size = new System.Drawing.Size(517, 104);
             this.groupBox7.TabIndex = 25;
             this.groupBox7.TabStop = false;
-            this.groupBox7.Text = "Player Info";
+            this.groupBox7.Text = "角色信息";
             // 
             // chkPotionBelt
             // 
             this.chkPotionBelt.AutoSize = true;
-            this.chkPotionBelt.Location = new System.Drawing.Point(9, 65);
+            this.chkPotionBelt.Location = new System.Drawing.Point(12, 75);
+            this.chkPotionBelt.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.chkPotionBelt.Name = "chkPotionBelt";
-            this.chkPotionBelt.Size = new System.Drawing.Size(77, 17);
+            this.chkPotionBelt.Size = new System.Drawing.Size(59, 19);
             this.chkPotionBelt.TabIndex = 25;
-            this.chkPotionBelt.Text = "Potion Belt";
+            this.chkPotionBelt.Text = "腰带";
             this.chkPotionBelt.UseVisualStyleBackColor = true;
             this.chkPotionBelt.CheckedChanged += new System.EventHandler(this.chkPotionBelt_CheckedChanged);
             // 
             // chkResistances
             // 
             this.chkResistances.AutoSize = true;
-            this.chkResistances.Location = new System.Drawing.Point(116, 65);
+            this.chkResistances.Location = new System.Drawing.Point(155, 75);
+            this.chkResistances.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.chkResistances.Name = "chkResistances";
-            this.chkResistances.Size = new System.Drawing.Size(84, 17);
+            this.chkResistances.Size = new System.Drawing.Size(59, 19);
             this.chkResistances.TabIndex = 24;
-            this.chkResistances.Text = "Resistances";
+            this.chkResistances.Text = "抗性";
             this.chkResistances.UseVisualStyleBackColor = true;
             this.chkResistances.CheckedChanged += new System.EventHandler(this.chkResistances_CheckedChanged);
             // 
             // chkExpProgress
             // 
             this.chkExpProgress.AutoSize = true;
-            this.chkExpProgress.Location = new System.Drawing.Point(233, 42);
+            this.chkExpProgress.Location = new System.Drawing.Point(311, 48);
+            this.chkExpProgress.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.chkExpProgress.Name = "chkExpProgress";
-            this.chkExpProgress.Size = new System.Drawing.Size(88, 17);
+            this.chkExpProgress.Size = new System.Drawing.Size(104, 19);
             this.chkExpProgress.TabIndex = 5;
-            this.chkExpProgress.Text = "Exp Progress";
+            this.chkExpProgress.Text = "经验值进度";
             this.chkExpProgress.UseVisualStyleBackColor = true;
             this.chkExpProgress.CheckedChanged += new System.EventHandler(this.chkExpProgress_CheckedChanged);
             // 
             // chkCurrentLevel
             // 
             this.chkCurrentLevel.AutoSize = true;
-            this.chkCurrentLevel.Location = new System.Drawing.Point(233, 19);
+            this.chkCurrentLevel.Location = new System.Drawing.Point(311, 22);
+            this.chkCurrentLevel.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.chkCurrentLevel.Name = "chkCurrentLevel";
-            this.chkCurrentLevel.Size = new System.Drawing.Size(89, 17);
+            this.chkCurrentLevel.Size = new System.Drawing.Size(89, 19);
             this.chkCurrentLevel.TabIndex = 4;
-            this.chkCurrentLevel.Text = "Current Level";
+            this.chkCurrentLevel.Text = "角色等级";
             this.chkCurrentLevel.UseVisualStyleBackColor = true;
             this.chkCurrentLevel.CheckedChanged += new System.EventHandler(this.chkCurrentLevel_CheckedChanged);
             // 
             // chkManaPerc
             // 
             this.chkManaPerc.AutoSize = true;
-            this.chkManaPerc.Location = new System.Drawing.Point(116, 42);
+            this.chkManaPerc.Location = new System.Drawing.Point(155, 48);
+            this.chkManaPerc.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.chkManaPerc.Name = "chkManaPerc";
-            this.chkManaPerc.Size = new System.Drawing.Size(93, 17);
+            this.chkManaPerc.Size = new System.Drawing.Size(104, 19);
             this.chkManaPerc.TabIndex = 3;
-            this.chkManaPerc.Text = "Mana Percent";
+            this.chkManaPerc.Text = "魔法百分数";
             this.chkManaPerc.UseVisualStyleBackColor = true;
             this.chkManaPerc.CheckedChanged += new System.EventHandler(this.chkManaPerc_CheckedChanged);
             // 
             // chkMana
             // 
             this.chkMana.AutoSize = true;
-            this.chkMana.Location = new System.Drawing.Point(9, 44);
+            this.chkMana.Location = new System.Drawing.Point(12, 51);
+            this.chkMana.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.chkMana.Name = "chkMana";
-            this.chkMana.Size = new System.Drawing.Size(53, 17);
+            this.chkMana.Size = new System.Drawing.Size(74, 19);
             this.chkMana.TabIndex = 2;
-            this.chkMana.Text = "Mana";
+            this.chkMana.Text = "魔法值";
             this.chkMana.UseVisualStyleBackColor = true;
             this.chkMana.CheckedChanged += new System.EventHandler(this.chkMana_CheckedChanged);
             // 
             // chkLifePerc
             // 
             this.chkLifePerc.AutoSize = true;
-            this.chkLifePerc.Location = new System.Drawing.Point(116, 19);
+            this.chkLifePerc.Location = new System.Drawing.Point(155, 22);
+            this.chkLifePerc.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.chkLifePerc.Name = "chkLifePerc";
-            this.chkLifePerc.Size = new System.Drawing.Size(83, 17);
+            this.chkLifePerc.Size = new System.Drawing.Size(104, 19);
             this.chkLifePerc.TabIndex = 1;
-            this.chkLifePerc.Text = "Life Percent";
+            this.chkLifePerc.Text = "生命百分数";
             this.chkLifePerc.UseVisualStyleBackColor = true;
             this.chkLifePerc.CheckedChanged += new System.EventHandler(this.chkLifePerc_CheckedChanged);
             // 
             // chkLife
             // 
             this.chkLife.AutoSize = true;
-            this.chkLife.Location = new System.Drawing.Point(9, 21);
+            this.chkLife.Location = new System.Drawing.Point(12, 24);
+            this.chkLife.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.chkLife.Name = "chkLife";
-            this.chkLife.Size = new System.Drawing.Size(43, 17);
+            this.chkLife.Size = new System.Drawing.Size(74, 19);
             this.chkLife.TabIndex = 0;
-            this.chkLife.Text = "Life";
+            this.chkLife.Text = "生命值";
             this.chkLife.UseVisualStyleBackColor = true;
             this.chkLife.CheckedChanged += new System.EventHandler(this.chkLife_CheckedChanged);
             // 
@@ -1012,76 +1076,84 @@
             this.grpLines.Controls.Add(this.chkLinesNextArea);
             this.grpLines.Controls.Add(this.chkLinesCorpse);
             this.grpLines.Controls.Add(this.chkLinesHostiles);
-            this.grpLines.Location = new System.Drawing.Point(11, 245);
+            this.grpLines.Location = new System.Drawing.Point(15, 283);
+            this.grpLines.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.grpLines.Name = "grpLines";
-            this.grpLines.Size = new System.Drawing.Size(388, 71);
+            this.grpLines.Padding = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.grpLines.Size = new System.Drawing.Size(517, 82);
             this.grpLines.TabIndex = 24;
             this.grpLines.TabStop = false;
-            this.grpLines.Text = "Toggle Map Lines";
+            this.grpLines.Text = "引导线";
             // 
             // chkLinesShrines
             // 
             this.chkLinesShrines.AutoSize = true;
-            this.chkLinesShrines.Location = new System.Drawing.Point(233, 23);
+            this.chkLinesShrines.Location = new System.Drawing.Point(311, 27);
+            this.chkLinesShrines.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.chkLinesShrines.Name = "chkLinesShrines";
-            this.chkLinesShrines.Size = new System.Drawing.Size(61, 17);
+            this.chkLinesShrines.Size = new System.Drawing.Size(59, 19);
             this.chkLinesShrines.TabIndex = 7;
-            this.chkLinesShrines.Text = "Shrines";
+            this.chkLinesShrines.Text = "神殿";
             this.chkLinesShrines.UseVisualStyleBackColor = true;
             this.chkLinesShrines.CheckedChanged += new System.EventHandler(this.chkLinesShrines_CheckedChanged);
             // 
             // chkLinesWaypoint
             // 
             this.chkLinesWaypoint.AutoSize = true;
-            this.chkLinesWaypoint.Location = new System.Drawing.Point(233, 46);
+            this.chkLinesWaypoint.Location = new System.Drawing.Point(311, 53);
+            this.chkLinesWaypoint.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.chkLinesWaypoint.Name = "chkLinesWaypoint";
-            this.chkLinesWaypoint.Size = new System.Drawing.Size(76, 17);
+            this.chkLinesWaypoint.Size = new System.Drawing.Size(59, 19);
             this.chkLinesWaypoint.TabIndex = 6;
-            this.chkLinesWaypoint.Text = "Waypoints";
+            this.chkLinesWaypoint.Text = "小站";
             this.chkLinesWaypoint.UseVisualStyleBackColor = true;
             this.chkLinesWaypoint.CheckedChanged += new System.EventHandler(this.chkLinesWaypoint_CheckedChanged);
             // 
             // chkLinesQuest
             // 
             this.chkLinesQuest.AutoSize = true;
-            this.chkLinesQuest.Location = new System.Drawing.Point(116, 46);
+            this.chkLinesQuest.Location = new System.Drawing.Point(155, 53);
+            this.chkLinesQuest.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.chkLinesQuest.Name = "chkLinesQuest";
-            this.chkLinesQuest.Size = new System.Drawing.Size(54, 17);
+            this.chkLinesQuest.Size = new System.Drawing.Size(59, 19);
             this.chkLinesQuest.TabIndex = 4;
-            this.chkLinesQuest.Text = "Quest";
+            this.chkLinesQuest.Text = "任务";
             this.chkLinesQuest.UseVisualStyleBackColor = true;
             this.chkLinesQuest.CheckedChanged += new System.EventHandler(this.chkLinesQuest_CheckedChanged);
             // 
             // chkLinesNextArea
             // 
             this.chkLinesNextArea.AutoSize = true;
-            this.chkLinesNextArea.Location = new System.Drawing.Point(116, 23);
+            this.chkLinesNextArea.Location = new System.Drawing.Point(155, 27);
+            this.chkLinesNextArea.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.chkLinesNextArea.Name = "chkLinesNextArea";
-            this.chkLinesNextArea.Size = new System.Drawing.Size(73, 17);
+            this.chkLinesNextArea.Size = new System.Drawing.Size(104, 19);
             this.chkLinesNextArea.TabIndex = 3;
-            this.chkLinesNextArea.Text = "Next Area";
+            this.chkLinesNextArea.Text = "下一个场景";
             this.chkLinesNextArea.UseVisualStyleBackColor = true;
             this.chkLinesNextArea.CheckedChanged += new System.EventHandler(this.chkLinesNextArea_CheckedChanged);
             // 
             // chkLinesCorpse
             // 
             this.chkLinesCorpse.AutoSize = true;
-            this.chkLinesCorpse.Location = new System.Drawing.Point(9, 46);
+            this.chkLinesCorpse.Location = new System.Drawing.Point(12, 53);
+            this.chkLinesCorpse.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.chkLinesCorpse.Name = "chkLinesCorpse";
-            this.chkLinesCorpse.Size = new System.Drawing.Size(59, 17);
+            this.chkLinesCorpse.Size = new System.Drawing.Size(59, 19);
             this.chkLinesCorpse.TabIndex = 2;
-            this.chkLinesCorpse.Text = "Corpse";
+            this.chkLinesCorpse.Text = "尸体";
             this.chkLinesCorpse.UseVisualStyleBackColor = true;
             this.chkLinesCorpse.CheckedChanged += new System.EventHandler(this.chkLinesCorpse_CheckedChanged);
             // 
             // chkLinesHostiles
             // 
             this.chkLinesHostiles.AutoSize = true;
-            this.chkLinesHostiles.Location = new System.Drawing.Point(9, 23);
+            this.chkLinesHostiles.Location = new System.Drawing.Point(12, 27);
+            this.chkLinesHostiles.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.chkLinesHostiles.Name = "chkLinesHostiles";
-            this.chkLinesHostiles.Size = new System.Drawing.Size(95, 17);
+            this.chkLinesHostiles.Size = new System.Drawing.Size(89, 19);
             this.chkLinesHostiles.TabIndex = 1;
-            this.chkLinesHostiles.Text = "Hostile Players";
+            this.chkLinesHostiles.Text = "敌对玩家";
             this.chkLinesHostiles.UseVisualStyleBackColor = true;
             this.chkLinesHostiles.CheckedChanged += new System.EventHandler(this.chkLinesHostiles_CheckedChanged);
             // 
@@ -1099,19 +1171,22 @@
             this.groupBox3.Controls.Add(this.lblBuffSize);
             this.groupBox3.Controls.Add(this.cboBuffPosition);
             this.groupBox3.Controls.Add(this.buffSize);
-            this.groupBox3.Location = new System.Drawing.Point(11, 9);
+            this.groupBox3.Location = new System.Drawing.Point(15, 10);
+            this.groupBox3.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(388, 125);
+            this.groupBox3.Padding = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.groupBox3.Size = new System.Drawing.Size(517, 144);
             this.groupBox3.TabIndex = 23;
             this.groupBox3.TabStop = false;
-            this.groupBox3.Text = "Buff Bar";
+            this.groupBox3.Text = "Buff状态";
             // 
             // chkDebuffs
             // 
             this.chkDebuffs.AutoSize = true;
-            this.chkDebuffs.Location = new System.Drawing.Point(198, 78);
+            this.chkDebuffs.Location = new System.Drawing.Point(264, 90);
+            this.chkDebuffs.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.chkDebuffs.Name = "chkDebuffs";
-            this.chkDebuffs.Size = new System.Drawing.Size(63, 17);
+            this.chkDebuffs.Size = new System.Drawing.Size(85, 19);
             this.chkDebuffs.TabIndex = 29;
             this.chkDebuffs.Text = "Debuffs";
             this.chkDebuffs.UseVisualStyleBackColor = true;
@@ -1120,31 +1195,34 @@
             // chkPassives
             // 
             this.chkPassives.AutoSize = true;
-            this.chkPassives.Location = new System.Drawing.Point(124, 78);
+            this.chkPassives.Location = new System.Drawing.Point(165, 90);
+            this.chkPassives.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.chkPassives.Name = "chkPassives";
-            this.chkPassives.Size = new System.Drawing.Size(68, 17);
+            this.chkPassives.Size = new System.Drawing.Size(59, 19);
             this.chkPassives.TabIndex = 28;
-            this.chkPassives.Text = "Passives";
+            this.chkPassives.Text = "被动";
             this.chkPassives.UseVisualStyleBackColor = true;
             this.chkPassives.CheckedChanged += new System.EventHandler(this.chkPassives_CheckedChanged);
             // 
             // chkAuras
             // 
             this.chkAuras.AutoSize = true;
-            this.chkAuras.Location = new System.Drawing.Point(65, 78);
+            this.chkAuras.Location = new System.Drawing.Point(87, 90);
+            this.chkAuras.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.chkAuras.Name = "chkAuras";
-            this.chkAuras.Size = new System.Drawing.Size(53, 17);
+            this.chkAuras.Size = new System.Drawing.Size(59, 19);
             this.chkAuras.TabIndex = 27;
-            this.chkAuras.Text = "Auras";
+            this.chkAuras.Text = "光环";
             this.chkAuras.UseVisualStyleBackColor = true;
             this.chkAuras.CheckedChanged += new System.EventHandler(this.chkAuras_CheckedChanged);
             // 
             // chkBuffs
             // 
             this.chkBuffs.AutoSize = true;
-            this.chkBuffs.Location = new System.Drawing.Point(9, 78);
+            this.chkBuffs.Location = new System.Drawing.Point(12, 90);
+            this.chkBuffs.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.chkBuffs.Name = "chkBuffs";
-            this.chkBuffs.Size = new System.Drawing.Size(50, 17);
+            this.chkBuffs.Size = new System.Drawing.Size(69, 19);
             this.chkBuffs.TabIndex = 26;
             this.chkBuffs.Text = "Buffs";
             this.chkBuffs.UseVisualStyleBackColor = true;
@@ -1153,11 +1231,12 @@
             // chkAlertLowerRes
             // 
             this.chkAlertLowerRes.AutoSize = true;
-            this.chkAlertLowerRes.Location = new System.Drawing.Point(9, 101);
+            this.chkAlertLowerRes.Location = new System.Drawing.Point(12, 117);
+            this.chkAlertLowerRes.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.chkAlertLowerRes.Name = "chkAlertLowerRes";
-            this.chkAlertLowerRes.Size = new System.Drawing.Size(161, 17);
+            this.chkAlertLowerRes.Size = new System.Drawing.Size(134, 19);
             this.chkAlertLowerRes.TabIndex = 23;
-            this.chkAlertLowerRes.Text = "Alert If Lowered Resistances";
+            this.chkAlertLowerRes.Text = "抗性太低时提醒";
             this.chkAlertLowerRes.UseVisualStyleBackColor = true;
             this.chkAlertLowerRes.CheckedChanged += new System.EventHandler(this.chkAlertLowerRes_CheckedChanged);
             // 
@@ -1166,9 +1245,10 @@
             this.lblBuffSizeValue.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.lblBuffSizeValue.AutoSize = true;
             this.lblBuffSizeValue.BackColor = System.Drawing.Color.Transparent;
-            this.lblBuffSizeValue.Location = new System.Drawing.Point(351, 21);
+            this.lblBuffSizeValue.Location = new System.Drawing.Point(468, 24);
+            this.lblBuffSizeValue.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblBuffSizeValue.Name = "lblBuffSizeValue";
-            this.lblBuffSizeValue.Size = new System.Drawing.Size(31, 13);
+            this.lblBuffSizeValue.Size = new System.Drawing.Size(39, 15);
             this.lblBuffSizeValue.TabIndex = 22;
             this.lblBuffSizeValue.Text = "1000";
             this.lblBuffSizeValue.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -1176,30 +1256,33 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(6, 54);
+            this.label5.Location = new System.Drawing.Point(8, 62);
+            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(44, 13);
+            this.label5.Size = new System.Drawing.Size(37, 15);
             this.label5.TabIndex = 19;
-            this.label5.Text = "Position";
+            this.label5.Text = "位置";
             // 
             // lblBuffSize
             // 
             this.lblBuffSize.AutoSize = true;
             this.lblBuffSize.BackColor = System.Drawing.Color.Transparent;
-            this.lblBuffSize.Location = new System.Drawing.Point(6, 21);
+            this.lblBuffSize.Location = new System.Drawing.Point(8, 24);
+            this.lblBuffSize.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblBuffSize.Name = "lblBuffSize";
-            this.lblBuffSize.Size = new System.Drawing.Size(51, 13);
+            this.lblBuffSize.Size = new System.Drawing.Size(67, 15);
             this.lblBuffSize.TabIndex = 16;
-            this.lblBuffSize.Text = "Icon Size";
+            this.lblBuffSize.Text = "图标尺寸";
             // 
             // cboBuffPosition
             // 
             this.cboBuffPosition.AllowDrop = true;
             this.cboBuffPosition.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cboBuffPosition.FormattingEnabled = true;
-            this.cboBuffPosition.Location = new System.Drawing.Point(56, 51);
+            this.cboBuffPosition.Location = new System.Drawing.Point(75, 59);
+            this.cboBuffPosition.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.cboBuffPosition.Name = "cboBuffPosition";
-            this.cboBuffPosition.Size = new System.Drawing.Size(124, 21);
+            this.cboBuffPosition.Size = new System.Drawing.Size(164, 23);
             this.cboBuffPosition.TabIndex = 18;
             this.cboBuffPosition.SelectedIndexChanged += new System.EventHandler(this.cboBuffPosition_SelectedIndexChanged);
             // 
@@ -1210,10 +1293,11 @@
             this.buffSize.AutoSize = false;
             this.buffSize.BackColor = System.Drawing.Color.White;
             this.buffSize.LargeChange = 1;
-            this.buffSize.Location = new System.Drawing.Point(79, 18);
+            this.buffSize.Location = new System.Drawing.Point(105, 21);
+            this.buffSize.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.buffSize.Maximum = 20;
             this.buffSize.Name = "buffSize";
-            this.buffSize.Size = new System.Drawing.Size(266, 27);
+            this.buffSize.Size = new System.Drawing.Size(355, 31);
             this.buffSize.TabIndex = 15;
             this.buffSize.Scroll += new System.EventHandler(this.buffSize_Scroll);
             this.buffSize.MouseWheel += new System.Windows.Forms.MouseEventHandler(this.IgnoreMouseWheel);
@@ -1223,10 +1307,11 @@
             this.tabPage2.Controls.Add(this.tabDrawing);
             this.tabPage2.Controls.Add(this.label8);
             this.tabPage2.Controls.Add(this.cboRenderOption);
-            this.tabPage2.Location = new System.Drawing.Point(4, 22);
+            this.tabPage2.Location = new System.Drawing.Point(4, 25);
+            this.tabPage2.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.tabPage2.Name = "tabPage2";
-            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(412, 327);
+            this.tabPage2.Padding = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.tabPage2.Size = new System.Drawing.Size(552, 378);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Drawing";
             this.tabPage2.UseVisualStyleBackColor = true;
@@ -1239,10 +1324,11 @@
             this.tabDrawing.Controls.Add(this.tabIcon);
             this.tabDrawing.Controls.Add(this.tabLabel);
             this.tabDrawing.Controls.Add(this.tabLine);
-            this.tabDrawing.Location = new System.Drawing.Point(9, 33);
+            this.tabDrawing.Location = new System.Drawing.Point(12, 38);
+            this.tabDrawing.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.tabDrawing.Name = "tabDrawing";
             this.tabDrawing.SelectedIndex = 0;
-            this.tabDrawing.Size = new System.Drawing.Size(397, 286);
+            this.tabDrawing.Size = new System.Drawing.Size(529, 330);
             this.tabDrawing.TabIndex = 10;
             this.tabDrawing.Visible = false;
             this.tabDrawing.SelectedIndexChanged += new System.EventHandler(this.tabDrawing_SelectedIndexChanged);
@@ -1264,10 +1350,11 @@
             this.tabIcon.Controls.Add(this.iconSize);
             this.tabIcon.Controls.Add(this.label9);
             this.tabIcon.Controls.Add(this.cboIconShape);
-            this.tabIcon.Location = new System.Drawing.Point(4, 22);
+            this.tabIcon.Location = new System.Drawing.Point(4, 25);
+            this.tabIcon.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.tabIcon.Name = "tabIcon";
-            this.tabIcon.Padding = new System.Windows.Forms.Padding(3);
-            this.tabIcon.Size = new System.Drawing.Size(389, 260);
+            this.tabIcon.Padding = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.tabIcon.Size = new System.Drawing.Size(521, 301);
             this.tabIcon.TabIndex = 0;
             this.tabIcon.Text = "Icon";
             this.tabIcon.UseVisualStyleBackColor = true;
@@ -1277,9 +1364,10 @@
             this.lblIconOpacityValue.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.lblIconOpacityValue.AutoSize = true;
             this.lblIconOpacityValue.BackColor = System.Drawing.Color.Transparent;
-            this.lblIconOpacityValue.Location = new System.Drawing.Point(352, 211);
+            this.lblIconOpacityValue.Location = new System.Drawing.Point(469, 243);
+            this.lblIconOpacityValue.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblIconOpacityValue.Name = "lblIconOpacityValue";
-            this.lblIconOpacityValue.Size = new System.Drawing.Size(31, 13);
+            this.lblIconOpacityValue.Size = new System.Drawing.Size(39, 15);
             this.lblIconOpacityValue.TabIndex = 29;
             this.lblIconOpacityValue.Text = "1000";
             this.lblIconOpacityValue.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -1288,9 +1376,10 @@
             // 
             this.lblIconOpacity.AutoSize = true;
             this.lblIconOpacity.BackColor = System.Drawing.Color.Transparent;
-            this.lblIconOpacity.Location = new System.Drawing.Point(8, 211);
+            this.lblIconOpacity.Location = new System.Drawing.Point(11, 243);
+            this.lblIconOpacity.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblIconOpacity.Name = "lblIconOpacity";
-            this.lblIconOpacity.Size = new System.Drawing.Size(43, 13);
+            this.lblIconOpacity.Size = new System.Drawing.Size(63, 15);
             this.lblIconOpacity.TabIndex = 28;
             this.lblIconOpacity.Text = "Opacity";
             // 
@@ -1301,10 +1390,11 @@
             this.iconOpacity.AutoSize = false;
             this.iconOpacity.BackColor = System.Drawing.Color.White;
             this.iconOpacity.LargeChange = 1;
-            this.iconOpacity.Location = new System.Drawing.Point(75, 209);
+            this.iconOpacity.Location = new System.Drawing.Point(100, 241);
+            this.iconOpacity.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.iconOpacity.Maximum = 20;
             this.iconOpacity.Name = "iconOpacity";
-            this.iconOpacity.Size = new System.Drawing.Size(271, 27);
+            this.iconOpacity.Size = new System.Drawing.Size(361, 31);
             this.iconOpacity.TabIndex = 27;
             this.iconOpacity.Value = 1;
             this.iconOpacity.Scroll += new System.EventHandler(this.iconOpacity_Scroll);
@@ -1313,9 +1403,10 @@
             // 
             this.btnIconColor.BackColor = System.Drawing.Color.Transparent;
             this.btnIconColor.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnIconColor.Location = new System.Drawing.Point(11, 11);
+            this.btnIconColor.Location = new System.Drawing.Point(15, 13);
+            this.btnIconColor.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnIconColor.Name = "btnIconColor";
-            this.btnIconColor.Size = new System.Drawing.Size(75, 23);
+            this.btnIconColor.Size = new System.Drawing.Size(100, 27);
             this.btnIconColor.TabIndex = 10;
             this.btnIconColor.Text = "Fill Color";
             this.btnIconColor.UseVisualStyleBackColor = false;
@@ -1325,9 +1416,10 @@
             // 
             this.btnIconOutlineColor.BackColor = System.Drawing.Color.Transparent;
             this.btnIconOutlineColor.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnIconOutlineColor.Location = new System.Drawing.Point(142, 11);
+            this.btnIconOutlineColor.Location = new System.Drawing.Point(189, 13);
+            this.btnIconOutlineColor.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnIconOutlineColor.Name = "btnIconOutlineColor";
-            this.btnIconOutlineColor.Size = new System.Drawing.Size(85, 23);
+            this.btnIconOutlineColor.Size = new System.Drawing.Size(113, 27);
             this.btnIconOutlineColor.TabIndex = 18;
             this.btnIconOutlineColor.Text = "Outline Color";
             this.btnIconOutlineColor.UseVisualStyleBackColor = false;
@@ -1338,9 +1430,10 @@
             this.btnClearOutlineColor.FlatAppearance.BorderSize = 0;
             this.btnClearOutlineColor.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnClearOutlineColor.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F);
-            this.btnClearOutlineColor.Location = new System.Drawing.Point(227, 11);
+            this.btnClearOutlineColor.Location = new System.Drawing.Point(303, 13);
+            this.btnClearOutlineColor.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnClearOutlineColor.Name = "btnClearOutlineColor";
-            this.btnClearOutlineColor.Size = new System.Drawing.Size(23, 23);
+            this.btnClearOutlineColor.Size = new System.Drawing.Size(31, 27);
             this.btnClearOutlineColor.TabIndex = 26;
             this.btnClearOutlineColor.Text = "X";
             this.btnClearOutlineColor.UseVisualStyleBackColor = true;
@@ -1351,9 +1444,10 @@
             this.btnClearFillColor.FlatAppearance.BorderSize = 0;
             this.btnClearFillColor.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnClearFillColor.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F);
-            this.btnClearFillColor.Location = new System.Drawing.Point(86, 11);
+            this.btnClearFillColor.Location = new System.Drawing.Point(115, 13);
+            this.btnClearFillColor.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnClearFillColor.Name = "btnClearFillColor";
-            this.btnClearFillColor.Size = new System.Drawing.Size(23, 23);
+            this.btnClearFillColor.Size = new System.Drawing.Size(31, 27);
             this.btnClearFillColor.TabIndex = 25;
             this.btnClearFillColor.Text = "X";
             this.btnClearFillColor.UseVisualStyleBackColor = true;
@@ -1364,9 +1458,10 @@
             this.lblIconThicknessValue.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.lblIconThicknessValue.AutoSize = true;
             this.lblIconThicknessValue.BackColor = System.Drawing.Color.Transparent;
-            this.lblIconThicknessValue.Location = new System.Drawing.Point(352, 161);
+            this.lblIconThicknessValue.Location = new System.Drawing.Point(469, 186);
+            this.lblIconThicknessValue.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblIconThicknessValue.Name = "lblIconThicknessValue";
-            this.lblIconThicknessValue.Size = new System.Drawing.Size(31, 13);
+            this.lblIconThicknessValue.Size = new System.Drawing.Size(39, 15);
             this.lblIconThicknessValue.TabIndex = 24;
             this.lblIconThicknessValue.Text = "1000";
             this.lblIconThicknessValue.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -1376,9 +1471,10 @@
             this.lblIconSizeValue.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.lblIconSizeValue.AutoSize = true;
             this.lblIconSizeValue.BackColor = System.Drawing.Color.Transparent;
-            this.lblIconSizeValue.Location = new System.Drawing.Point(352, 111);
+            this.lblIconSizeValue.Location = new System.Drawing.Point(469, 128);
+            this.lblIconSizeValue.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblIconSizeValue.Name = "lblIconSizeValue";
-            this.lblIconSizeValue.Size = new System.Drawing.Size(31, 13);
+            this.lblIconSizeValue.Size = new System.Drawing.Size(39, 15);
             this.lblIconSizeValue.TabIndex = 23;
             this.lblIconSizeValue.Text = "1000";
             this.lblIconSizeValue.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -1387,9 +1483,10 @@
             // 
             this.lblIconThickness.AutoSize = true;
             this.lblIconThickness.BackColor = System.Drawing.Color.Transparent;
-            this.lblIconThickness.Location = new System.Drawing.Point(8, 161);
+            this.lblIconThickness.Location = new System.Drawing.Point(11, 186);
+            this.lblIconThickness.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblIconThickness.Name = "lblIconThickness";
-            this.lblIconThickness.Size = new System.Drawing.Size(40, 13);
+            this.lblIconThickness.Size = new System.Drawing.Size(63, 15);
             this.lblIconThickness.TabIndex = 17;
             this.lblIconThickness.Text = "Outline";
             // 
@@ -1400,10 +1497,11 @@
             this.iconThickness.AutoSize = false;
             this.iconThickness.BackColor = System.Drawing.Color.White;
             this.iconThickness.LargeChange = 1;
-            this.iconThickness.Location = new System.Drawing.Point(75, 159);
+            this.iconThickness.Location = new System.Drawing.Point(100, 183);
+            this.iconThickness.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.iconThickness.Maximum = 20;
             this.iconThickness.Name = "iconThickness";
-            this.iconThickness.Size = new System.Drawing.Size(271, 27);
+            this.iconThickness.Size = new System.Drawing.Size(361, 31);
             this.iconThickness.TabIndex = 16;
             this.iconThickness.Value = 1;
             this.iconThickness.Scroll += new System.EventHandler(this.iconThickness_Scroll);
@@ -1413,9 +1511,10 @@
             // 
             this.lblIconSize.AutoSize = true;
             this.lblIconSize.BackColor = System.Drawing.Color.Transparent;
-            this.lblIconSize.Location = new System.Drawing.Point(8, 111);
+            this.lblIconSize.Location = new System.Drawing.Point(11, 128);
+            this.lblIconSize.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblIconSize.Name = "lblIconSize";
-            this.lblIconSize.Size = new System.Drawing.Size(27, 13);
+            this.lblIconSize.Size = new System.Drawing.Size(39, 15);
             this.lblIconSize.TabIndex = 15;
             this.lblIconSize.Text = "Size";
             // 
@@ -1426,10 +1525,11 @@
             this.iconSize.AutoSize = false;
             this.iconSize.BackColor = System.Drawing.Color.White;
             this.iconSize.LargeChange = 1;
-            this.iconSize.Location = new System.Drawing.Point(75, 109);
+            this.iconSize.Location = new System.Drawing.Point(100, 126);
+            this.iconSize.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.iconSize.Maximum = 20;
             this.iconSize.Name = "iconSize";
-            this.iconSize.Size = new System.Drawing.Size(271, 27);
+            this.iconSize.Size = new System.Drawing.Size(361, 31);
             this.iconSize.TabIndex = 14;
             this.iconSize.Value = 1;
             this.iconSize.Scroll += new System.EventHandler(this.iconSize_Scroll);
@@ -1438,9 +1538,10 @@
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(8, 61);
+            this.label9.Location = new System.Drawing.Point(11, 70);
+            this.label9.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(38, 13);
+            this.label9.Size = new System.Drawing.Size(47, 15);
             this.label9.TabIndex = 13;
             this.label9.Text = "Shape";
             // 
@@ -1448,9 +1549,10 @@
             // 
             this.cboIconShape.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cboIconShape.FormattingEnabled = true;
-            this.cboIconShape.Location = new System.Drawing.Point(75, 58);
+            this.cboIconShape.Location = new System.Drawing.Point(100, 67);
+            this.cboIconShape.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.cboIconShape.Name = "cboIconShape";
-            this.cboIconShape.Size = new System.Drawing.Size(108, 21);
+            this.cboIconShape.Size = new System.Drawing.Size(143, 23);
             this.cboIconShape.TabIndex = 12;
             this.cboIconShape.SelectedIndexChanged += new System.EventHandler(this.cboIconShape_SelectedIndexChanged);
             // 
@@ -1461,10 +1563,11 @@
             this.tabLabel.Controls.Add(this.btnClearLabelColor);
             this.tabLabel.Controls.Add(this.btnFont);
             this.tabLabel.Controls.Add(this.btnLabelColor);
-            this.tabLabel.Location = new System.Drawing.Point(4, 22);
+            this.tabLabel.Location = new System.Drawing.Point(4, 25);
+            this.tabLabel.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.tabLabel.Name = "tabLabel";
-            this.tabLabel.Padding = new System.Windows.Forms.Padding(3);
-            this.tabLabel.Size = new System.Drawing.Size(389, 260);
+            this.tabLabel.Padding = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.tabLabel.Size = new System.Drawing.Size(521, 301);
             this.tabLabel.TabIndex = 1;
             this.tabLabel.Text = "Label";
             this.tabLabel.UseVisualStyleBackColor = true;
@@ -1472,9 +1575,10 @@
             // chkTextShadow
             // 
             this.chkTextShadow.AutoSize = true;
-            this.chkTextShadow.Location = new System.Drawing.Point(142, 65);
+            this.chkTextShadow.Location = new System.Drawing.Point(189, 75);
+            this.chkTextShadow.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.chkTextShadow.Name = "chkTextShadow";
-            this.chkTextShadow.Size = new System.Drawing.Size(89, 17);
+            this.chkTextShadow.Size = new System.Drawing.Size(117, 19);
             this.chkTextShadow.TabIndex = 32;
             this.chkTextShadow.Text = "Text Shadow";
             this.chkTextShadow.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1486,9 +1590,10 @@
             this.btnClearLabelFont.FlatAppearance.BorderSize = 0;
             this.btnClearLabelFont.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnClearLabelFont.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F);
-            this.btnClearLabelFont.Location = new System.Drawing.Point(86, 61);
+            this.btnClearLabelFont.Location = new System.Drawing.Point(115, 70);
+            this.btnClearLabelFont.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnClearLabelFont.Name = "btnClearLabelFont";
-            this.btnClearLabelFont.Size = new System.Drawing.Size(23, 23);
+            this.btnClearLabelFont.Size = new System.Drawing.Size(31, 27);
             this.btnClearLabelFont.TabIndex = 27;
             this.btnClearLabelFont.Text = "X";
             this.btnClearLabelFont.UseVisualStyleBackColor = true;
@@ -1499,9 +1604,10 @@
             this.btnClearLabelColor.FlatAppearance.BorderSize = 0;
             this.btnClearLabelColor.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnClearLabelColor.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F);
-            this.btnClearLabelColor.Location = new System.Drawing.Point(86, 11);
+            this.btnClearLabelColor.Location = new System.Drawing.Point(115, 13);
+            this.btnClearLabelColor.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnClearLabelColor.Name = "btnClearLabelColor";
-            this.btnClearLabelColor.Size = new System.Drawing.Size(23, 23);
+            this.btnClearLabelColor.Size = new System.Drawing.Size(31, 27);
             this.btnClearLabelColor.TabIndex = 26;
             this.btnClearLabelColor.Text = "X";
             this.btnClearLabelColor.UseVisualStyleBackColor = true;
@@ -1510,9 +1616,10 @@
             // btnFont
             // 
             this.btnFont.BackColor = System.Drawing.Color.Transparent;
-            this.btnFont.Location = new System.Drawing.Point(11, 61);
+            this.btnFont.Location = new System.Drawing.Point(15, 70);
+            this.btnFont.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnFont.Name = "btnFont";
-            this.btnFont.Size = new System.Drawing.Size(75, 23);
+            this.btnFont.Size = new System.Drawing.Size(100, 27);
             this.btnFont.TabIndex = 20;
             this.btnFont.Text = "Font";
             this.btnFont.UseVisualStyleBackColor = false;
@@ -1522,9 +1629,10 @@
             // 
             this.btnLabelColor.BackColor = System.Drawing.Color.Transparent;
             this.btnLabelColor.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnLabelColor.Location = new System.Drawing.Point(11, 11);
+            this.btnLabelColor.Location = new System.Drawing.Point(15, 13);
+            this.btnLabelColor.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnLabelColor.Name = "btnLabelColor";
-            this.btnLabelColor.Size = new System.Drawing.Size(75, 23);
+            this.btnLabelColor.Size = new System.Drawing.Size(100, 27);
             this.btnLabelColor.TabIndex = 16;
             this.btnLabelColor.Text = "Color";
             this.btnLabelColor.UseVisualStyleBackColor = false;
@@ -1540,9 +1648,10 @@
             this.tabLine.Controls.Add(this.lblLineArrow);
             this.tabLine.Controls.Add(this.lineArrowSize);
             this.tabLine.Controls.Add(this.btnLineColor);
-            this.tabLine.Location = new System.Drawing.Point(4, 22);
+            this.tabLine.Location = new System.Drawing.Point(4, 25);
+            this.tabLine.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.tabLine.Name = "tabLine";
-            this.tabLine.Size = new System.Drawing.Size(389, 260);
+            this.tabLine.Size = new System.Drawing.Size(521, 301);
             this.tabLine.TabIndex = 2;
             this.tabLine.Text = "Line";
             this.tabLine.UseVisualStyleBackColor = true;
@@ -1552,9 +1661,10 @@
             this.btnClearLineColor.FlatAppearance.BorderSize = 0;
             this.btnClearLineColor.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnClearLineColor.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F);
-            this.btnClearLineColor.Location = new System.Drawing.Point(86, 11);
+            this.btnClearLineColor.Location = new System.Drawing.Point(115, 13);
+            this.btnClearLineColor.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnClearLineColor.Name = "btnClearLineColor";
-            this.btnClearLineColor.Size = new System.Drawing.Size(23, 23);
+            this.btnClearLineColor.Size = new System.Drawing.Size(31, 27);
             this.btnClearLineColor.TabIndex = 28;
             this.btnClearLineColor.Text = "X";
             this.btnClearLineColor.UseVisualStyleBackColor = true;
@@ -1565,9 +1675,10 @@
             this.lblLineThicknessSizeValue.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.lblLineThicknessSizeValue.AutoSize = true;
             this.lblLineThicknessSizeValue.BackColor = System.Drawing.Color.Transparent;
-            this.lblLineThicknessSizeValue.Location = new System.Drawing.Point(343, 111);
+            this.lblLineThicknessSizeValue.Location = new System.Drawing.Point(457, 128);
+            this.lblLineThicknessSizeValue.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblLineThicknessSizeValue.Name = "lblLineThicknessSizeValue";
-            this.lblLineThicknessSizeValue.Size = new System.Drawing.Size(31, 13);
+            this.lblLineThicknessSizeValue.Size = new System.Drawing.Size(39, 15);
             this.lblLineThicknessSizeValue.TabIndex = 27;
             this.lblLineThicknessSizeValue.Text = "1000";
             this.lblLineThicknessSizeValue.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -1577,9 +1688,10 @@
             this.lblLineArrowSizeValue.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.lblLineArrowSizeValue.AutoSize = true;
             this.lblLineArrowSizeValue.BackColor = System.Drawing.Color.Transparent;
-            this.lblLineArrowSizeValue.Location = new System.Drawing.Point(343, 61);
+            this.lblLineArrowSizeValue.Location = new System.Drawing.Point(457, 70);
+            this.lblLineArrowSizeValue.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblLineArrowSizeValue.Name = "lblLineArrowSizeValue";
-            this.lblLineArrowSizeValue.Size = new System.Drawing.Size(31, 13);
+            this.lblLineArrowSizeValue.Size = new System.Drawing.Size(39, 15);
             this.lblLineArrowSizeValue.TabIndex = 26;
             this.lblLineArrowSizeValue.Text = "1000";
             this.lblLineArrowSizeValue.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -1588,9 +1700,10 @@
             // 
             this.lblLineThickness.AutoSize = true;
             this.lblLineThickness.BackColor = System.Drawing.Color.Transparent;
-            this.lblLineThickness.Location = new System.Drawing.Point(8, 111);
+            this.lblLineThickness.Location = new System.Drawing.Point(11, 128);
+            this.lblLineThickness.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblLineThickness.Name = "lblLineThickness";
-            this.lblLineThickness.Size = new System.Drawing.Size(59, 13);
+            this.lblLineThickness.Size = new System.Drawing.Size(87, 15);
             this.lblLineThickness.TabIndex = 23;
             this.lblLineThickness.Text = "Thickness ";
             // 
@@ -1601,10 +1714,11 @@
             this.lineThicknessSize.AutoSize = false;
             this.lineThicknessSize.BackColor = System.Drawing.Color.White;
             this.lineThicknessSize.LargeChange = 1;
-            this.lineThicknessSize.Location = new System.Drawing.Point(73, 109);
+            this.lineThicknessSize.Location = new System.Drawing.Point(97, 126);
+            this.lineThicknessSize.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.lineThicknessSize.Maximum = 30;
             this.lineThicknessSize.Name = "lineThicknessSize";
-            this.lineThicknessSize.Size = new System.Drawing.Size(264, 27);
+            this.lineThicknessSize.Size = new System.Drawing.Size(352, 31);
             this.lineThicknessSize.TabIndex = 22;
             this.lineThicknessSize.Value = 1;
             this.lineThicknessSize.Scroll += new System.EventHandler(this.lineThicknessSize_Scroll);
@@ -1614,9 +1728,10 @@
             // 
             this.lblLineArrow.AutoSize = true;
             this.lblLineArrow.BackColor = System.Drawing.Color.Transparent;
-            this.lblLineArrow.Location = new System.Drawing.Point(8, 61);
+            this.lblLineArrow.Location = new System.Drawing.Point(11, 70);
+            this.lblLineArrow.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblLineArrow.Name = "lblLineArrow";
-            this.lblLineArrow.Size = new System.Drawing.Size(57, 13);
+            this.lblLineArrow.Size = new System.Drawing.Size(87, 15);
             this.lblLineArrow.TabIndex = 21;
             this.lblLineArrow.Text = "Arrow Size";
             // 
@@ -1627,10 +1742,11 @@
             this.lineArrowSize.AutoSize = false;
             this.lineArrowSize.BackColor = System.Drawing.Color.White;
             this.lineArrowSize.LargeChange = 1;
-            this.lineArrowSize.Location = new System.Drawing.Point(73, 59);
+            this.lineArrowSize.Location = new System.Drawing.Point(97, 68);
+            this.lineArrowSize.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.lineArrowSize.Maximum = 20;
             this.lineArrowSize.Name = "lineArrowSize";
-            this.lineArrowSize.Size = new System.Drawing.Size(264, 27);
+            this.lineArrowSize.Size = new System.Drawing.Size(352, 31);
             this.lineArrowSize.TabIndex = 20;
             this.lineArrowSize.Value = 1;
             this.lineArrowSize.Scroll += new System.EventHandler(this.lineArrowSize_Scroll);
@@ -1640,9 +1756,10 @@
             // 
             this.btnLineColor.BackColor = System.Drawing.Color.Transparent;
             this.btnLineColor.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnLineColor.Location = new System.Drawing.Point(11, 11);
+            this.btnLineColor.Location = new System.Drawing.Point(15, 13);
+            this.btnLineColor.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnLineColor.Name = "btnLineColor";
-            this.btnLineColor.Size = new System.Drawing.Size(75, 23);
+            this.btnLineColor.Size = new System.Drawing.Size(100, 27);
             this.btnLineColor.TabIndex = 18;
             this.btnLineColor.Text = "Color";
             this.btnLineColor.UseVisualStyleBackColor = false;
@@ -1651,9 +1768,10 @@
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(6, 9);
+            this.label8.Location = new System.Drawing.Point(8, 10);
+            this.label8.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(106, 13);
+            this.label8.Size = new System.Drawing.Size(175, 15);
             this.label8.TabIndex = 1;
             this.label8.Text = "Configure Setting For";
             // 
@@ -1663,20 +1781,22 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.cboRenderOption.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cboRenderOption.FormattingEnabled = true;
-            this.cboRenderOption.Location = new System.Drawing.Point(118, 6);
+            this.cboRenderOption.Location = new System.Drawing.Point(157, 7);
+            this.cboRenderOption.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.cboRenderOption.Name = "cboRenderOption";
-            this.cboRenderOption.Size = new System.Drawing.Size(284, 21);
+            this.cboRenderOption.Size = new System.Drawing.Size(377, 23);
             this.cboRenderOption.TabIndex = 0;
             this.cboRenderOption.SelectedIndexChanged += new System.EventHandler(this.cboRenderOption_SelectedIndexChanged);
             // 
             // tabPage6
             // 
             this.tabPage6.Controls.Add(this.groupBox6);
-            this.tabPage6.Location = new System.Drawing.Point(4, 22);
+            this.tabPage6.Location = new System.Drawing.Point(4, 25);
+            this.tabPage6.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.tabPage6.Name = "tabPage6";
-            this.tabPage6.Size = new System.Drawing.Size(412, 327);
+            this.tabPage6.Size = new System.Drawing.Size(552, 378);
             this.tabPage6.TabIndex = 5;
-            this.tabPage6.Text = "Item Log";
+            this.tabPage6.Text = "掉落信息";
             this.tabPage6.UseVisualStyleBackColor = true;
             // 
             // groupBox6
@@ -1717,20 +1837,23 @@
             this.groupBox6.Controls.Add(this.txtFilterFile);
             this.groupBox6.Controls.Add(this.chkItemLogItemsOnIdentify);
             this.groupBox6.Controls.Add(this.label21);
-            this.groupBox6.Location = new System.Drawing.Point(11, 9);
+            this.groupBox6.Location = new System.Drawing.Point(15, 10);
+            this.groupBox6.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.groupBox6.Name = "groupBox6";
-            this.groupBox6.Size = new System.Drawing.Size(388, 305);
+            this.groupBox6.Padding = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.groupBox6.Size = new System.Drawing.Size(517, 352);
             this.groupBox6.TabIndex = 0;
             this.groupBox6.TabStop = false;
-            this.groupBox6.Text = "Item Log";
+            this.groupBox6.Text = "掉落物品";
             // 
             // cboItemLogSound
             // 
             this.cboItemLogSound.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cboItemLogSound.FormattingEnabled = true;
-            this.cboItemLogSound.Location = new System.Drawing.Point(256, 88);
+            this.cboItemLogSound.Location = new System.Drawing.Point(341, 102);
+            this.cboItemLogSound.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.cboItemLogSound.Name = "cboItemLogSound";
-            this.cboItemLogSound.Size = new System.Drawing.Size(121, 21);
+            this.cboItemLogSound.Size = new System.Drawing.Size(160, 23);
             this.cboItemLogSound.TabIndex = 55;
             this.cboItemLogSound.SelectedIndexChanged += new System.EventHandler(this.soundSelect_SelectedIndexChanged);
             // 
@@ -1739,9 +1862,10 @@
             this.btnClearSuperiorColor.FlatAppearance.BorderSize = 0;
             this.btnClearSuperiorColor.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnClearSuperiorColor.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F);
-            this.btnClearSuperiorColor.Location = new System.Drawing.Point(188, 238);
+            this.btnClearSuperiorColor.Location = new System.Drawing.Point(251, 275);
+            this.btnClearSuperiorColor.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnClearSuperiorColor.Name = "btnClearSuperiorColor";
-            this.btnClearSuperiorColor.Size = new System.Drawing.Size(23, 23);
+            this.btnClearSuperiorColor.Size = new System.Drawing.Size(31, 27);
             this.btnClearSuperiorColor.TabIndex = 53;
             this.btnClearSuperiorColor.Text = "X";
             this.btnClearSuperiorColor.UseVisualStyleBackColor = true;
@@ -1750,11 +1874,12 @@
             // btnSuperiorColor
             // 
             this.btnSuperiorColor.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnSuperiorColor.Location = new System.Drawing.Point(131, 238);
+            this.btnSuperiorColor.Location = new System.Drawing.Point(175, 275);
+            this.btnSuperiorColor.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnSuperiorColor.Name = "btnSuperiorColor";
-            this.btnSuperiorColor.Size = new System.Drawing.Size(56, 23);
+            this.btnSuperiorColor.Size = new System.Drawing.Size(75, 27);
             this.btnSuperiorColor.TabIndex = 54;
-            this.btnSuperiorColor.Text = "Superior";
+            this.btnSuperiorColor.Text = "超强的";
             this.btnSuperiorColor.UseVisualStyleBackColor = true;
             this.btnSuperiorColor.Click += new System.EventHandler(this.btnSuperiorColor_Click);
             // 
@@ -1763,9 +1888,10 @@
             this.btnClearUniqueColor.FlatAppearance.BorderSize = 0;
             this.btnClearUniqueColor.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnClearUniqueColor.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F);
-            this.btnClearUniqueColor.Location = new System.Drawing.Point(274, 271);
+            this.btnClearUniqueColor.Location = new System.Drawing.Point(365, 313);
+            this.btnClearUniqueColor.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnClearUniqueColor.Name = "btnClearUniqueColor";
-            this.btnClearUniqueColor.Size = new System.Drawing.Size(23, 23);
+            this.btnClearUniqueColor.Size = new System.Drawing.Size(31, 27);
             this.btnClearUniqueColor.TabIndex = 51;
             this.btnClearUniqueColor.Text = "X";
             this.btnClearUniqueColor.UseVisualStyleBackColor = true;
@@ -1774,11 +1900,12 @@
             // btnUniqueColor
             // 
             this.btnUniqueColor.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnUniqueColor.Location = new System.Drawing.Point(217, 271);
+            this.btnUniqueColor.Location = new System.Drawing.Point(289, 313);
+            this.btnUniqueColor.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnUniqueColor.Name = "btnUniqueColor";
-            this.btnUniqueColor.Size = new System.Drawing.Size(56, 23);
+            this.btnUniqueColor.Size = new System.Drawing.Size(75, 27);
             this.btnUniqueColor.TabIndex = 52;
-            this.btnUniqueColor.Text = "Unique";
+            this.btnUniqueColor.Text = "暗金";
             this.btnUniqueColor.UseVisualStyleBackColor = true;
             this.btnUniqueColor.Click += new System.EventHandler(this.btnUniqueColor_Click);
             // 
@@ -1787,9 +1914,10 @@
             this.btnClearSetColor.FlatAppearance.BorderSize = 0;
             this.btnClearSetColor.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnClearSetColor.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F);
-            this.btnClearSetColor.Location = new System.Drawing.Point(188, 271);
+            this.btnClearSetColor.Location = new System.Drawing.Point(251, 313);
+            this.btnClearSetColor.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnClearSetColor.Name = "btnClearSetColor";
-            this.btnClearSetColor.Size = new System.Drawing.Size(23, 23);
+            this.btnClearSetColor.Size = new System.Drawing.Size(31, 27);
             this.btnClearSetColor.TabIndex = 49;
             this.btnClearSetColor.Text = "X";
             this.btnClearSetColor.UseVisualStyleBackColor = true;
@@ -1798,11 +1926,12 @@
             // btnSetColor
             // 
             this.btnSetColor.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnSetColor.Location = new System.Drawing.Point(131, 271);
+            this.btnSetColor.Location = new System.Drawing.Point(175, 313);
+            this.btnSetColor.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnSetColor.Name = "btnSetColor";
-            this.btnSetColor.Size = new System.Drawing.Size(56, 23);
+            this.btnSetColor.Size = new System.Drawing.Size(75, 27);
             this.btnSetColor.TabIndex = 50;
-            this.btnSetColor.Text = "Set";
+            this.btnSetColor.Text = "套装";
             this.btnSetColor.UseVisualStyleBackColor = true;
             this.btnSetColor.Click += new System.EventHandler(this.btnSetColor_Click);
             // 
@@ -1811,9 +1940,10 @@
             this.btnClearCraftedColor.FlatAppearance.BorderSize = 0;
             this.btnClearCraftedColor.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnClearCraftedColor.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F);
-            this.btnClearCraftedColor.Location = new System.Drawing.Point(360, 271);
+            this.btnClearCraftedColor.Location = new System.Drawing.Point(480, 313);
+            this.btnClearCraftedColor.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnClearCraftedColor.Name = "btnClearCraftedColor";
-            this.btnClearCraftedColor.Size = new System.Drawing.Size(23, 23);
+            this.btnClearCraftedColor.Size = new System.Drawing.Size(31, 27);
             this.btnClearCraftedColor.TabIndex = 47;
             this.btnClearCraftedColor.Text = "X";
             this.btnClearCraftedColor.UseVisualStyleBackColor = true;
@@ -1822,11 +1952,12 @@
             // btnCraftedColor
             // 
             this.btnCraftedColor.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnCraftedColor.Location = new System.Drawing.Point(303, 271);
+            this.btnCraftedColor.Location = new System.Drawing.Point(404, 313);
+            this.btnCraftedColor.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnCraftedColor.Name = "btnCraftedColor";
-            this.btnCraftedColor.Size = new System.Drawing.Size(56, 23);
+            this.btnCraftedColor.Size = new System.Drawing.Size(75, 27);
             this.btnCraftedColor.TabIndex = 48;
-            this.btnCraftedColor.Text = "Crafted";
+            this.btnCraftedColor.Text = "手工";
             this.btnCraftedColor.UseVisualStyleBackColor = true;
             this.btnCraftedColor.Click += new System.EventHandler(this.btnCraftedColor_Click);
             // 
@@ -1835,9 +1966,10 @@
             this.btnClearRareColor.FlatAppearance.BorderSize = 0;
             this.btnClearRareColor.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnClearRareColor.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F);
-            this.btnClearRareColor.Location = new System.Drawing.Point(360, 238);
+            this.btnClearRareColor.Location = new System.Drawing.Point(480, 275);
+            this.btnClearRareColor.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnClearRareColor.Name = "btnClearRareColor";
-            this.btnClearRareColor.Size = new System.Drawing.Size(23, 23);
+            this.btnClearRareColor.Size = new System.Drawing.Size(31, 27);
             this.btnClearRareColor.TabIndex = 45;
             this.btnClearRareColor.Text = "X";
             this.btnClearRareColor.UseVisualStyleBackColor = true;
@@ -1846,11 +1978,12 @@
             // btnRareColor
             // 
             this.btnRareColor.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnRareColor.Location = new System.Drawing.Point(303, 238);
+            this.btnRareColor.Location = new System.Drawing.Point(404, 275);
+            this.btnRareColor.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnRareColor.Name = "btnRareColor";
-            this.btnRareColor.Size = new System.Drawing.Size(56, 23);
+            this.btnRareColor.Size = new System.Drawing.Size(75, 27);
             this.btnRareColor.TabIndex = 46;
-            this.btnRareColor.Text = "Rare";
+            this.btnRareColor.Text = "稀有";
             this.btnRareColor.UseVisualStyleBackColor = true;
             this.btnRareColor.Click += new System.EventHandler(this.btnRareColor_Click);
             // 
@@ -1859,9 +1992,10 @@
             this.btnClearMagicColor.FlatAppearance.BorderSize = 0;
             this.btnClearMagicColor.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnClearMagicColor.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F);
-            this.btnClearMagicColor.Location = new System.Drawing.Point(274, 238);
+            this.btnClearMagicColor.Location = new System.Drawing.Point(365, 275);
+            this.btnClearMagicColor.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnClearMagicColor.Name = "btnClearMagicColor";
-            this.btnClearMagicColor.Size = new System.Drawing.Size(23, 23);
+            this.btnClearMagicColor.Size = new System.Drawing.Size(31, 27);
             this.btnClearMagicColor.TabIndex = 43;
             this.btnClearMagicColor.Text = "X";
             this.btnClearMagicColor.UseVisualStyleBackColor = true;
@@ -1870,44 +2004,48 @@
             // btnMagicColor
             // 
             this.btnMagicColor.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnMagicColor.Location = new System.Drawing.Point(217, 238);
+            this.btnMagicColor.Location = new System.Drawing.Point(289, 275);
+            this.btnMagicColor.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnMagicColor.Name = "btnMagicColor";
-            this.btnMagicColor.Size = new System.Drawing.Size(56, 23);
+            this.btnMagicColor.Size = new System.Drawing.Size(75, 27);
             this.btnMagicColor.TabIndex = 44;
-            this.btnMagicColor.Text = "Magic";
+            this.btnMagicColor.Text = "魔法";
             this.btnMagicColor.UseVisualStyleBackColor = true;
             this.btnMagicColor.Click += new System.EventHandler(this.btnMagicColor_Click);
             // 
             // chkShowDirectionToItem
             // 
             this.chkShowDirectionToItem.AutoSize = true;
-            this.chkShowDirectionToItem.Location = new System.Drawing.Point(196, 65);
+            this.chkShowDirectionToItem.Location = new System.Drawing.Point(261, 75);
+            this.chkShowDirectionToItem.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.chkShowDirectionToItem.Name = "chkShowDirectionToItem";
-            this.chkShowDirectionToItem.Size = new System.Drawing.Size(137, 17);
+            this.chkShowDirectionToItem.Size = new System.Drawing.Size(119, 19);
             this.chkShowDirectionToItem.TabIndex = 42;
-            this.chkShowDirectionToItem.Text = "Show Direction To Item";
+            this.chkShowDirectionToItem.Text = "显示物品方向";
             this.chkShowDirectionToItem.UseVisualStyleBackColor = true;
             this.chkShowDirectionToItem.CheckedChanged += new System.EventHandler(this.chkShowDirectionToItem_CheckedChanged);
             // 
             // chkShowDistanceToItem
             // 
             this.chkShowDistanceToItem.AutoSize = true;
-            this.chkShowDistanceToItem.Location = new System.Drawing.Point(196, 42);
+            this.chkShowDistanceToItem.Location = new System.Drawing.Point(261, 48);
+            this.chkShowDistanceToItem.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.chkShowDistanceToItem.Name = "chkShowDistanceToItem";
-            this.chkShowDistanceToItem.Size = new System.Drawing.Size(182, 17);
+            this.chkShowDistanceToItem.Size = new System.Drawing.Size(157, 19);
             this.chkShowDistanceToItem.TabIndex = 41;
-            this.chkShowDistanceToItem.Text = "Show Item Distance / Picked Up";
+            this.chkShowDistanceToItem.Text = "显示物品距离/拾取";
             this.chkShowDistanceToItem.UseVisualStyleBackColor = true;
             this.chkShowDistanceToItem.CheckedChanged += new System.EventHandler(this.chkShowDistanceToItem_CheckedChanged);
             // 
             // chkItemLogVendorItems
             // 
             this.chkItemLogVendorItems.AutoSize = true;
-            this.chkItemLogVendorItems.Location = new System.Drawing.Point(11, 65);
+            this.chkItemLogVendorItems.Location = new System.Drawing.Point(15, 75);
+            this.chkItemLogVendorItems.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.chkItemLogVendorItems.Name = "chkItemLogVendorItems";
-            this.chkItemLogVendorItems.Size = new System.Drawing.Size(122, 17);
+            this.chkItemLogVendorItems.Size = new System.Drawing.Size(119, 19);
             this.chkItemLogVendorItems.TabIndex = 40;
-            this.chkItemLogVendorItems.Text = "Check Vendor Items";
+            this.chkItemLogVendorItems.Text = "检查商店物品";
             this.chkItemLogVendorItems.UseVisualStyleBackColor = true;
             this.chkItemLogVendorItems.CheckedChanged += new System.EventHandler(this.chkItemLogVendorItems_CheckedChanged);
             // 
@@ -1916,9 +2054,10 @@
             this.lblSoundVolumeValue.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.lblSoundVolumeValue.AutoSize = true;
             this.lblSoundVolumeValue.BackColor = System.Drawing.Color.Transparent;
-            this.lblSoundVolumeValue.Location = new System.Drawing.Point(346, 162);
+            this.lblSoundVolumeValue.Location = new System.Drawing.Point(461, 187);
+            this.lblSoundVolumeValue.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblSoundVolumeValue.Name = "lblSoundVolumeValue";
-            this.lblSoundVolumeValue.Size = new System.Drawing.Size(25, 13);
+            this.lblSoundVolumeValue.Size = new System.Drawing.Size(31, 15);
             this.lblSoundVolumeValue.TabIndex = 29;
             this.lblSoundVolumeValue.Text = "100";
             this.lblSoundVolumeValue.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -1928,9 +2067,10 @@
             this.lblItemDisplayForSecondsValue.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.lblItemDisplayForSecondsValue.AutoSize = true;
             this.lblItemDisplayForSecondsValue.BackColor = System.Drawing.Color.Transparent;
-            this.lblItemDisplayForSecondsValue.Location = new System.Drawing.Point(346, 203);
+            this.lblItemDisplayForSecondsValue.Location = new System.Drawing.Point(461, 234);
+            this.lblItemDisplayForSecondsValue.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblItemDisplayForSecondsValue.Name = "lblItemDisplayForSecondsValue";
-            this.lblItemDisplayForSecondsValue.Size = new System.Drawing.Size(33, 13);
+            this.lblItemDisplayForSecondsValue.Size = new System.Drawing.Size(47, 15);
             this.lblItemDisplayForSecondsValue.TabIndex = 25;
             this.lblItemDisplayForSecondsValue.Text = "100 s";
             this.lblItemDisplayForSecondsValue.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -1938,11 +2078,12 @@
             // chkLogTextShadow
             // 
             this.chkLogTextShadow.AutoSize = true;
-            this.chkLogTextShadow.Location = new System.Drawing.Point(11, 271);
+            this.chkLogTextShadow.Location = new System.Drawing.Point(15, 313);
+            this.chkLogTextShadow.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.chkLogTextShadow.Name = "chkLogTextShadow";
-            this.chkLogTextShadow.Size = new System.Drawing.Size(89, 17);
+            this.chkLogTextShadow.Size = new System.Drawing.Size(89, 19);
             this.chkLogTextShadow.TabIndex = 31;
-            this.chkLogTextShadow.Text = "Text Shadow";
+            this.chkLogTextShadow.Text = "文字阴影";
             this.chkLogTextShadow.UseVisualStyleBackColor = true;
             this.chkLogTextShadow.CheckedChanged += new System.EventHandler(this.chkLogTextShadow_CheckedChanged);
             // 
@@ -1951,9 +2092,10 @@
             this.btnClearLogFont.FlatAppearance.BorderSize = 0;
             this.btnClearLogFont.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnClearLogFont.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F);
-            this.btnClearLogFont.Location = new System.Drawing.Point(86, 236);
+            this.btnClearLogFont.Location = new System.Drawing.Point(115, 272);
+            this.btnClearLogFont.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnClearLogFont.Name = "btnClearLogFont";
-            this.btnClearLogFont.Size = new System.Drawing.Size(23, 23);
+            this.btnClearLogFont.Size = new System.Drawing.Size(31, 27);
             this.btnClearLogFont.TabIndex = 30;
             this.btnClearLogFont.Text = "X";
             this.btnClearLogFont.UseVisualStyleBackColor = true;
@@ -1966,11 +2108,12 @@
             this.itemDisplayForSeconds.AutoSize = false;
             this.itemDisplayForSeconds.BackColor = System.Drawing.Color.White;
             this.itemDisplayForSeconds.LargeChange = 1;
-            this.itemDisplayForSeconds.Location = new System.Drawing.Point(86, 203);
+            this.itemDisplayForSeconds.Location = new System.Drawing.Point(115, 234);
+            this.itemDisplayForSeconds.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.itemDisplayForSeconds.Maximum = 24;
             this.itemDisplayForSeconds.Minimum = 1;
             this.itemDisplayForSeconds.Name = "itemDisplayForSeconds";
-            this.itemDisplayForSeconds.Size = new System.Drawing.Size(254, 27);
+            this.itemDisplayForSeconds.Size = new System.Drawing.Size(339, 31);
             this.itemDisplayForSeconds.SmallChange = 25;
             this.itemDisplayForSeconds.TabIndex = 11;
             this.itemDisplayForSeconds.Value = 1;
@@ -1980,42 +2123,46 @@
             // chkItemLogEnabled
             // 
             this.chkItemLogEnabled.AutoSize = true;
-            this.chkItemLogEnabled.Location = new System.Drawing.Point(11, 19);
+            this.chkItemLogEnabled.Location = new System.Drawing.Point(15, 22);
+            this.chkItemLogEnabled.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.chkItemLogEnabled.Name = "chkItemLogEnabled";
-            this.chkItemLogEnabled.Size = new System.Drawing.Size(65, 17);
+            this.chkItemLogEnabled.Size = new System.Drawing.Size(59, 19);
             this.chkItemLogEnabled.TabIndex = 0;
-            this.chkItemLogEnabled.Text = "Enabled";
+            this.chkItemLogEnabled.Text = "开启";
             this.chkItemLogEnabled.UseVisualStyleBackColor = true;
             this.chkItemLogEnabled.CheckedChanged += new System.EventHandler(this.chkItemLogEnabled_CheckedChanged);
             // 
             // label16
             // 
             this.label16.AutoSize = true;
-            this.label16.Location = new System.Drawing.Point(8, 91);
+            this.label16.Location = new System.Drawing.Point(11, 105);
+            this.label16.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(48, 13);
+            this.label16.Size = new System.Drawing.Size(67, 15);
             this.label16.TabIndex = 1;
-            this.label16.Text = "Filter File";
+            this.label16.Text = "配置文件";
             // 
             // btnLogFont
             // 
             this.btnLogFont.BackColor = System.Drawing.Color.Transparent;
-            this.btnLogFont.Location = new System.Drawing.Point(11, 236);
+            this.btnLogFont.Location = new System.Drawing.Point(15, 272);
+            this.btnLogFont.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnLogFont.Name = "btnLogFont";
-            this.btnLogFont.Size = new System.Drawing.Size(75, 23);
+            this.btnLogFont.Size = new System.Drawing.Size(100, 27);
             this.btnLogFont.TabIndex = 22;
-            this.btnLogFont.Text = "Font";
+            this.btnLogFont.Text = "字体";
             this.btnLogFont.UseVisualStyleBackColor = false;
             this.btnLogFont.Click += new System.EventHandler(this.btnLogFont_Click);
             // 
             // lblItemLogPosition
             // 
             this.lblItemLogPosition.AutoSize = true;
-            this.lblItemLogPosition.Location = new System.Drawing.Point(192, 20);
+            this.lblItemLogPosition.Location = new System.Drawing.Point(256, 23);
+            this.lblItemLogPosition.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblItemLogPosition.Name = "lblItemLogPosition";
-            this.lblItemLogPosition.Size = new System.Drawing.Size(44, 13);
+            this.lblItemLogPosition.Size = new System.Drawing.Size(37, 15);
             this.lblItemLogPosition.TabIndex = 37;
-            this.lblItemLogPosition.Text = "Position";
+            this.lblItemLogPosition.Text = "位置";
             // 
             // soundVolume
             // 
@@ -2025,10 +2172,11 @@
             this.soundVolume.BackColor = System.Drawing.Color.White;
             this.soundVolume.Cursor = System.Windows.Forms.Cursors.Default;
             this.soundVolume.LargeChange = 1;
-            this.soundVolume.Location = new System.Drawing.Point(86, 162);
+            this.soundVolume.Location = new System.Drawing.Point(115, 187);
+            this.soundVolume.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.soundVolume.Maximum = 20;
             this.soundVolume.Name = "soundVolume";
-            this.soundVolume.Size = new System.Drawing.Size(254, 27);
+            this.soundVolume.Size = new System.Drawing.Size(339, 31);
             this.soundVolume.SmallChange = 25;
             this.soundVolume.TabIndex = 28;
             this.soundVolume.Scroll += new System.EventHandler(this.soundVolume_Scroll);
@@ -2037,40 +2185,44 @@
             // chkPlaySound
             // 
             this.chkPlaySound.AutoSize = true;
-            this.chkPlaySound.Location = new System.Drawing.Point(11, 130);
+            this.chkPlaySound.Location = new System.Drawing.Point(15, 150);
+            this.chkPlaySound.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.chkPlaySound.Name = "chkPlaySound";
-            this.chkPlaySound.Size = new System.Drawing.Size(123, 17);
+            this.chkPlaySound.Size = new System.Drawing.Size(149, 19);
             this.chkPlaySound.TabIndex = 3;
-            this.chkPlaySound.Text = "Play Sound On Drop";
+            this.chkPlaySound.Text = "掉落时播放提示音";
             this.chkPlaySound.UseVisualStyleBackColor = true;
             this.chkPlaySound.CheckedChanged += new System.EventHandler(this.chkPlaySound_CheckedChanged);
             // 
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(8, 162);
+            this.label10.Location = new System.Drawing.Point(11, 187);
+            this.label10.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(42, 13);
+            this.label10.Size = new System.Drawing.Size(37, 15);
             this.label10.TabIndex = 27;
-            this.label10.Text = "Volume";
+            this.label10.Text = "音量";
             // 
             // label17
             // 
             this.label17.AutoSize = true;
-            this.label17.Location = new System.Drawing.Point(193, 91);
+            this.label17.Location = new System.Drawing.Point(257, 105);
+            this.label17.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(57, 13);
+            this.label17.Size = new System.Drawing.Size(82, 15);
             this.label17.TabIndex = 4;
-            this.label17.Text = "Sound File";
+            this.label17.Text = "提示音文件";
             // 
             // label18
             // 
             this.label18.AutoSize = true;
-            this.label18.Location = new System.Drawing.Point(8, 203);
+            this.label18.Location = new System.Drawing.Point(11, 234);
+            this.label18.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(75, 13);
+            this.label18.Size = new System.Drawing.Size(112, 15);
             this.label18.TabIndex = 6;
-            this.label18.Text = "Hide item after";
+            this.label18.Text = "掉落后隐藏时间";
             // 
             // cboItemLogPosition
             // 
@@ -2078,9 +2230,10 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.cboItemLogPosition.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cboItemLogPosition.FormattingEnabled = true;
-            this.cboItemLogPosition.Location = new System.Drawing.Point(242, 17);
+            this.cboItemLogPosition.Location = new System.Drawing.Point(323, 20);
+            this.cboItemLogPosition.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.cboItemLogPosition.Name = "cboItemLogPosition";
-            this.cboItemLogPosition.Size = new System.Drawing.Size(140, 21);
+            this.cboItemLogPosition.Size = new System.Drawing.Size(185, 23);
             this.cboItemLogPosition.TabIndex = 38;
             this.cboItemLogPosition.SelectedIndexChanged += new System.EventHandler(this.cboItemLogPosition_SelectedIndexChanged);
             // 
@@ -2088,20 +2241,22 @@
             // 
             this.txtFilterFile.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtFilterFile.Location = new System.Drawing.Point(62, 88);
+            this.txtFilterFile.Location = new System.Drawing.Point(83, 102);
+            this.txtFilterFile.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.txtFilterFile.Name = "txtFilterFile";
-            this.txtFilterFile.Size = new System.Drawing.Size(122, 20);
+            this.txtFilterFile.Size = new System.Drawing.Size(161, 25);
             this.txtFilterFile.TabIndex = 2;
             this.txtFilterFile.TextChanged += new System.EventHandler(this.txtFilterFile_TextChanged);
             // 
             // chkItemLogItemsOnIdentify
             // 
             this.chkItemLogItemsOnIdentify.AutoSize = true;
-            this.chkItemLogItemsOnIdentify.Location = new System.Drawing.Point(11, 42);
+            this.chkItemLogItemsOnIdentify.Location = new System.Drawing.Point(15, 48);
+            this.chkItemLogItemsOnIdentify.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.chkItemLogItemsOnIdentify.Name = "chkItemLogItemsOnIdentify";
-            this.chkItemLogItemsOnIdentify.Size = new System.Drawing.Size(139, 17);
+            this.chkItemLogItemsOnIdentify.Size = new System.Drawing.Size(179, 19);
             this.chkItemLogItemsOnIdentify.TabIndex = 39;
-            this.chkItemLogItemsOnIdentify.Text = "Check Items On Identify";
+            this.chkItemLogItemsOnIdentify.Text = "过滤已经鉴定过的物品";
             this.chkItemLogItemsOnIdentify.UseVisualStyleBackColor = true;
             this.chkItemLogItemsOnIdentify.CheckedChanged += new System.EventHandler(this.chkItemLogItemsOnIdentify_CheckedChanged);
             // 
@@ -2110,21 +2265,23 @@
             this.label21.AutoSize = true;
             this.label21.Font = new System.Drawing.Font("Microsoft Sans Serif", 7F);
             this.label21.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.label21.Location = new System.Drawing.Point(59, 111);
+            this.label21.Location = new System.Drawing.Point(79, 128);
+            this.label21.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(80, 13);
+            this.label21.Size = new System.Drawing.Size(91, 15);
             this.label21.TabIndex = 26;
-            this.label21.Text = "Requires restart";
+            this.label21.Text = "设置后需要重启";
             // 
             // tabPage7
             // 
             this.tabPage7.Controls.Add(this.grpHotkeys);
-            this.tabPage7.Location = new System.Drawing.Point(4, 22);
+            this.tabPage7.Location = new System.Drawing.Point(4, 25);
+            this.tabPage7.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.tabPage7.Name = "tabPage7";
-            this.tabPage7.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage7.Size = new System.Drawing.Size(412, 327);
+            this.tabPage7.Padding = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.tabPage7.Size = new System.Drawing.Size(552, 378);
             this.tabPage7.TabIndex = 6;
-            this.tabPage7.Text = "Hotkeys";
+            this.tabPage7.Text = "快捷键";
             this.tabPage7.UseVisualStyleBackColor = true;
             // 
             // grpHotkeys
@@ -2145,19 +2302,22 @@
             this.grpHotkeys.Controls.Add(this.label13);
             this.grpHotkeys.Controls.Add(this.label12);
             this.grpHotkeys.Controls.Add(this.label22);
-            this.grpHotkeys.Location = new System.Drawing.Point(11, 9);
+            this.grpHotkeys.Location = new System.Drawing.Point(15, 10);
+            this.grpHotkeys.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.grpHotkeys.Name = "grpHotkeys";
-            this.grpHotkeys.Size = new System.Drawing.Size(388, 214);
+            this.grpHotkeys.Padding = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.grpHotkeys.Size = new System.Drawing.Size(517, 247);
             this.grpHotkeys.TabIndex = 9;
             this.grpHotkeys.TabStop = false;
             this.grpHotkeys.Text = "Hotkeys";
             // 
             // txtToggleConfigKey
             // 
-            this.txtToggleConfigKey.Location = new System.Drawing.Point(160, 180);
+            this.txtToggleConfigKey.Location = new System.Drawing.Point(213, 208);
+            this.txtToggleConfigKey.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.txtToggleConfigKey.MaxLength = 1;
             this.txtToggleConfigKey.Name = "txtToggleConfigKey";
-            this.txtToggleConfigKey.Size = new System.Drawing.Size(94, 20);
+            this.txtToggleConfigKey.Size = new System.Drawing.Size(124, 25);
             this.txtToggleConfigKey.TabIndex = 20;
             this.txtToggleConfigKey.TabStop = false;
             this.txtToggleConfigKey.TextChanged += new System.EventHandler(this.txtToggleConfigKey_TextChanged);
@@ -2165,18 +2325,20 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(6, 183);
+            this.label4.Location = new System.Drawing.Point(8, 211);
+            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(136, 13);
+            this.label4.Size = new System.Drawing.Size(199, 15);
             this.label4.TabIndex = 21;
             this.label4.Text = "Toggle Config Window Key";
             // 
             // txtHideMapKey
             // 
-            this.txtHideMapKey.Location = new System.Drawing.Point(160, 47);
+            this.txtHideMapKey.Location = new System.Drawing.Point(213, 54);
+            this.txtHideMapKey.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.txtHideMapKey.MaxLength = 1;
             this.txtHideMapKey.Name = "txtHideMapKey";
-            this.txtHideMapKey.Size = new System.Drawing.Size(94, 20);
+            this.txtHideMapKey.Size = new System.Drawing.Size(124, 25);
             this.txtHideMapKey.TabIndex = 19;
             this.txtHideMapKey.TabStop = false;
             this.txtHideMapKey.TextChanged += new System.EventHandler(this.txtHideMapKey_TextChanged);
@@ -2184,58 +2346,64 @@
             // lblHideMapKey
             // 
             this.lblHideMapKey.AutoSize = true;
-            this.lblHideMapKey.Location = new System.Drawing.Point(6, 50);
+            this.lblHideMapKey.Location = new System.Drawing.Point(8, 58);
+            this.lblHideMapKey.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblHideMapKey.Name = "lblHideMapKey";
-            this.lblHideMapKey.Size = new System.Drawing.Size(74, 13);
+            this.lblHideMapKey.Size = new System.Drawing.Size(67, 15);
             this.lblHideMapKey.TabIndex = 18;
-            this.lblHideMapKey.Text = "Hide Map Key";
+            this.lblHideMapKey.Text = "隐藏地图";
             // 
             // txtZoomOutKey
             // 
-            this.txtZoomOutKey.Location = new System.Drawing.Point(160, 127);
+            this.txtZoomOutKey.Location = new System.Drawing.Point(213, 147);
+            this.txtZoomOutKey.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.txtZoomOutKey.MaxLength = 1;
             this.txtZoomOutKey.Name = "txtZoomOutKey";
-            this.txtZoomOutKey.Size = new System.Drawing.Size(94, 20);
+            this.txtZoomOutKey.Size = new System.Drawing.Size(124, 25);
             this.txtZoomOutKey.TabIndex = 15;
             this.txtZoomOutKey.TabStop = false;
             this.txtZoomOutKey.TextChanged += new System.EventHandler(this.txtZoomOutKey_TextChanged);
             // 
             // txtZoomInKey
             // 
-            this.txtZoomInKey.Location = new System.Drawing.Point(160, 99);
+            this.txtZoomInKey.Location = new System.Drawing.Point(213, 114);
+            this.txtZoomInKey.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.txtZoomInKey.MaxLength = 1;
             this.txtZoomInKey.Name = "txtZoomInKey";
-            this.txtZoomInKey.Size = new System.Drawing.Size(94, 20);
+            this.txtZoomInKey.Size = new System.Drawing.Size(124, 25);
             this.txtZoomInKey.TabIndex = 14;
             this.txtZoomInKey.TabStop = false;
             this.txtZoomInKey.TextChanged += new System.EventHandler(this.txtZoomInKey_TextChanged);
             // 
             // txtMapPositionsKey
             // 
-            this.txtMapPositionsKey.Location = new System.Drawing.Point(160, 73);
+            this.txtMapPositionsKey.Location = new System.Drawing.Point(213, 84);
+            this.txtMapPositionsKey.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.txtMapPositionsKey.MaxLength = 1;
             this.txtMapPositionsKey.Name = "txtMapPositionsKey";
-            this.txtMapPositionsKey.Size = new System.Drawing.Size(94, 20);
+            this.txtMapPositionsKey.Size = new System.Drawing.Size(124, 25);
             this.txtMapPositionsKey.TabIndex = 13;
             this.txtMapPositionsKey.TabStop = false;
             this.txtMapPositionsKey.TextChanged += new System.EventHandler(this.txtMapPositionsKey_TextChanged);
             // 
             // txtToggleMapKey
             // 
-            this.txtToggleMapKey.Location = new System.Drawing.Point(160, 21);
+            this.txtToggleMapKey.Location = new System.Drawing.Point(213, 24);
+            this.txtToggleMapKey.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.txtToggleMapKey.MaxLength = 1;
             this.txtToggleMapKey.Name = "txtToggleMapKey";
-            this.txtToggleMapKey.Size = new System.Drawing.Size(94, 20);
+            this.txtToggleMapKey.Size = new System.Drawing.Size(124, 25);
             this.txtToggleMapKey.TabIndex = 12;
             this.txtToggleMapKey.TabStop = false;
             this.txtToggleMapKey.TextChanged += new System.EventHandler(this.txtToggleMapKey_TextChanged);
             // 
             // txtExportItemsKey
             // 
-            this.txtExportItemsKey.Location = new System.Drawing.Point(160, 154);
+            this.txtExportItemsKey.Location = new System.Drawing.Point(213, 178);
+            this.txtExportItemsKey.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.txtExportItemsKey.MaxLength = 1;
             this.txtExportItemsKey.Name = "txtExportItemsKey";
-            this.txtExportItemsKey.Size = new System.Drawing.Size(94, 20);
+            this.txtExportItemsKey.Size = new System.Drawing.Size(124, 25);
             this.txtExportItemsKey.TabIndex = 16;
             this.txtExportItemsKey.TabStop = false;
             this.txtExportItemsKey.TextChanged += new System.EventHandler(this.txtExportItemsKey_TextChanged);
@@ -2243,45 +2411,50 @@
             // label15
             // 
             this.label15.AutoSize = true;
-            this.label15.Location = new System.Drawing.Point(6, 130);
+            this.label15.Location = new System.Drawing.Point(8, 150);
+            this.label15.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(75, 13);
+            this.label15.Size = new System.Drawing.Size(67, 15);
             this.label15.TabIndex = 11;
-            this.label15.Text = "Zoom Out Key";
+            this.label15.Text = "缩小地图";
             // 
             // label14
             // 
             this.label14.AutoSize = true;
-            this.label14.Location = new System.Drawing.Point(6, 103);
+            this.label14.Location = new System.Drawing.Point(8, 119);
+            this.label14.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(67, 13);
+            this.label14.Size = new System.Drawing.Size(67, 15);
             this.label14.TabIndex = 10;
-            this.label14.Text = "Zoom In Key";
+            this.label14.Text = "放大地图";
             // 
             // label13
             // 
             this.label13.AutoSize = true;
-            this.label13.Location = new System.Drawing.Point(6, 76);
+            this.label13.Location = new System.Drawing.Point(8, 88);
+            this.label13.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(123, 13);
+            this.label13.Size = new System.Drawing.Size(67, 15);
             this.label13.TabIndex = 9;
-            this.label13.Text = "Cycle Map Positions Key";
+            this.label13.Text = "地图位置";
             // 
             // label12
             // 
             this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(6, 24);
+            this.label12.Location = new System.Drawing.Point(8, 28);
+            this.label12.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(85, 13);
+            this.label12.Size = new System.Drawing.Size(67, 15);
             this.label12.TabIndex = 8;
-            this.label12.Text = "Toggle Map Key";
+            this.label12.Text = "显示地图";
             // 
             // label22
             // 
             this.label22.AutoSize = true;
-            this.label22.Location = new System.Drawing.Point(6, 157);
+            this.label22.Location = new System.Drawing.Point(8, 181);
+            this.label22.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(86, 13);
+            this.label22.Size = new System.Drawing.Size(135, 15);
             this.label22.TabIndex = 17;
             this.label22.Text = "Export Items Key";
             // 
@@ -2290,11 +2463,12 @@
             this.tabPage4.Controls.Add(this.groupBox2);
             this.tabPage4.Controls.Add(this.groupBoxAuthorizedWindowTitle);
             this.tabPage4.Controls.Add(this.groupBox8);
-            this.tabPage4.Location = new System.Drawing.Point(4, 22);
+            this.tabPage4.Location = new System.Drawing.Point(4, 25);
+            this.tabPage4.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.tabPage4.Name = "tabPage4";
-            this.tabPage4.Size = new System.Drawing.Size(412, 327);
+            this.tabPage4.Size = new System.Drawing.Size(552, 378);
             this.tabPage4.TabIndex = 3;
-            this.tabPage4.Text = "Advanced";
+            this.tabPage4.Text = "高级选项";
             this.tabPage4.UseVisualStyleBackColor = true;
             // 
             // groupBox2
@@ -2304,19 +2478,22 @@
             this.groupBox2.Controls.Add(this.btnRemoveHidden);
             this.groupBox2.Controls.Add(this.btnAddHidden);
             this.groupBox2.Controls.Add(this.lstHidden);
-            this.groupBox2.Location = new System.Drawing.Point(11, 9);
+            this.groupBox2.Location = new System.Drawing.Point(15, 10);
+            this.groupBox2.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(388, 100);
+            this.groupBox2.Padding = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.groupBox2.Size = new System.Drawing.Size(517, 115);
             this.groupBox2.TabIndex = 2;
             this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "Hidden Areas";
+            this.groupBox2.Text = "隐藏地图场景";
             // 
             // btnRemoveHidden
             // 
             this.btnRemoveHidden.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnRemoveHidden.Location = new System.Drawing.Point(362, 48);
+            this.btnRemoveHidden.Location = new System.Drawing.Point(483, 55);
+            this.btnRemoveHidden.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnRemoveHidden.Name = "btnRemoveHidden";
-            this.btnRemoveHidden.Size = new System.Drawing.Size(20, 23);
+            this.btnRemoveHidden.Size = new System.Drawing.Size(27, 27);
             this.btnRemoveHidden.TabIndex = 2;
             this.btnRemoveHidden.Text = "-";
             this.btnRemoveHidden.UseVisualStyleBackColor = true;
@@ -2325,9 +2502,10 @@
             // btnAddHidden
             // 
             this.btnAddHidden.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnAddHidden.Location = new System.Drawing.Point(362, 19);
+            this.btnAddHidden.Location = new System.Drawing.Point(483, 22);
+            this.btnAddHidden.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnAddHidden.Name = "btnAddHidden";
-            this.btnAddHidden.Size = new System.Drawing.Size(20, 23);
+            this.btnAddHidden.Size = new System.Drawing.Size(27, 27);
             this.btnAddHidden.TabIndex = 1;
             this.btnAddHidden.Text = "+";
             this.btnAddHidden.UseVisualStyleBackColor = true;
@@ -2338,9 +2516,11 @@
             this.lstHidden.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.lstHidden.FormattingEnabled = true;
-            this.lstHidden.Location = new System.Drawing.Point(10, 19);
+            this.lstHidden.ItemHeight = 15;
+            this.lstHidden.Location = new System.Drawing.Point(13, 22);
+            this.lstHidden.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.lstHidden.Name = "lstHidden";
-            this.lstHidden.Size = new System.Drawing.Size(346, 69);
+            this.lstHidden.Size = new System.Drawing.Size(460, 79);
             this.lstHidden.TabIndex = 0;
             // 
             // groupBoxAuthorizedWindowTitle
@@ -2351,28 +2531,32 @@
             this.groupBoxAuthorizedWindowTitle.Controls.Add(this.btnRemoveAuthorizedWindowTitle);
             this.groupBoxAuthorizedWindowTitle.Controls.Add(this.btnAddAuthorizedWindowTitle);
             this.groupBoxAuthorizedWindowTitle.Controls.Add(this.lstAuthorizedWindowTitle);
-            this.groupBoxAuthorizedWindowTitle.Location = new System.Drawing.Point(11, 123);
+            this.groupBoxAuthorizedWindowTitle.Location = new System.Drawing.Point(15, 142);
+            this.groupBoxAuthorizedWindowTitle.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.groupBoxAuthorizedWindowTitle.Name = "groupBoxAuthorizedWindowTitle";
-            this.groupBoxAuthorizedWindowTitle.Size = new System.Drawing.Size(388, 124);
+            this.groupBoxAuthorizedWindowTitle.Padding = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.groupBoxAuthorizedWindowTitle.Size = new System.Drawing.Size(517, 143);
             this.groupBoxAuthorizedWindowTitle.TabIndex = 2;
             this.groupBoxAuthorizedWindowTitle.TabStop = false;
-            this.groupBoxAuthorizedWindowTitle.Text = "Authorized Window Titles";
+            this.groupBoxAuthorizedWindowTitle.Text = "可能的游戏窗口名";
             // 
             // txtAuthorizedWindowTitle
             // 
             this.txtAuthorizedWindowTitle.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtAuthorizedWindowTitle.Location = new System.Drawing.Point(10, 94);
+            this.txtAuthorizedWindowTitle.Location = new System.Drawing.Point(13, 108);
+            this.txtAuthorizedWindowTitle.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.txtAuthorizedWindowTitle.Name = "txtAuthorizedWindowTitle";
-            this.txtAuthorizedWindowTitle.Size = new System.Drawing.Size(346, 20);
+            this.txtAuthorizedWindowTitle.Size = new System.Drawing.Size(460, 25);
             this.txtAuthorizedWindowTitle.TabIndex = 3;
             // 
             // btnRemoveAuthorizedWindowTitle
             // 
             this.btnRemoveAuthorizedWindowTitle.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnRemoveAuthorizedWindowTitle.Location = new System.Drawing.Point(362, 44);
+            this.btnRemoveAuthorizedWindowTitle.Location = new System.Drawing.Point(483, 51);
+            this.btnRemoveAuthorizedWindowTitle.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnRemoveAuthorizedWindowTitle.Name = "btnRemoveAuthorizedWindowTitle";
-            this.btnRemoveAuthorizedWindowTitle.Size = new System.Drawing.Size(20, 23);
+            this.btnRemoveAuthorizedWindowTitle.Size = new System.Drawing.Size(27, 27);
             this.btnRemoveAuthorizedWindowTitle.TabIndex = 2;
             this.btnRemoveAuthorizedWindowTitle.Text = "-";
             this.btnRemoveAuthorizedWindowTitle.UseVisualStyleBackColor = true;
@@ -2381,9 +2565,10 @@
             // btnAddAuthorizedWindowTitle
             // 
             this.btnAddAuthorizedWindowTitle.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnAddAuthorizedWindowTitle.Location = new System.Drawing.Point(362, 92);
+            this.btnAddAuthorizedWindowTitle.Location = new System.Drawing.Point(483, 106);
+            this.btnAddAuthorizedWindowTitle.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnAddAuthorizedWindowTitle.Name = "btnAddAuthorizedWindowTitle";
-            this.btnAddAuthorizedWindowTitle.Size = new System.Drawing.Size(20, 23);
+            this.btnAddAuthorizedWindowTitle.Size = new System.Drawing.Size(27, 27);
             this.btnAddAuthorizedWindowTitle.TabIndex = 1;
             this.btnAddAuthorizedWindowTitle.Text = "+";
             this.btnAddAuthorizedWindowTitle.UseVisualStyleBackColor = true;
@@ -2394,9 +2579,11 @@
             this.lstAuthorizedWindowTitle.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.lstAuthorizedWindowTitle.FormattingEnabled = true;
-            this.lstAuthorizedWindowTitle.Location = new System.Drawing.Point(10, 19);
+            this.lstAuthorizedWindowTitle.ItemHeight = 15;
+            this.lstAuthorizedWindowTitle.Location = new System.Drawing.Point(13, 22);
+            this.lstAuthorizedWindowTitle.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.lstAuthorizedWindowTitle.Name = "lstAuthorizedWindowTitle";
-            this.lstAuthorizedWindowTitle.Size = new System.Drawing.Size(346, 69);
+            this.lstAuthorizedWindowTitle.Size = new System.Drawing.Size(460, 79);
             this.lstAuthorizedWindowTitle.TabIndex = 0;
             // 
             // groupBox8
@@ -2406,32 +2593,36 @@
             this.groupBox8.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.groupBox8.Controls.Add(this.label3);
             this.groupBox8.Controls.Add(this.chkDPIAware);
-            this.groupBox8.Location = new System.Drawing.Point(11, 258);
+            this.groupBox8.Location = new System.Drawing.Point(15, 298);
+            this.groupBox8.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.groupBox8.Name = "groupBox8";
-            this.groupBox8.Size = new System.Drawing.Size(388, 58);
+            this.groupBox8.Padding = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.groupBox8.Size = new System.Drawing.Size(517, 67);
             this.groupBox8.TabIndex = 29;
             this.groupBox8.TabStop = false;
-            this.groupBox8.Text = "High DPI";
+            this.groupBox8.Text = "高DPI";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 7F);
             this.label3.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.label3.Location = new System.Drawing.Point(7, 36);
+            this.label3.Location = new System.Drawing.Point(9, 42);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(80, 13);
+            this.label3.Size = new System.Drawing.Size(91, 15);
             this.label3.TabIndex = 28;
-            this.label3.Text = "Requires restart";
+            this.label3.Text = "设置后需要重启";
             // 
             // chkDPIAware
             // 
             this.chkDPIAware.AutoSize = true;
-            this.chkDPIAware.Location = new System.Drawing.Point(10, 19);
+            this.chkDPIAware.Location = new System.Drawing.Point(13, 22);
+            this.chkDPIAware.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.chkDPIAware.Name = "chkDPIAware";
-            this.chkDPIAware.Size = new System.Drawing.Size(99, 17);
+            this.chkDPIAware.Size = new System.Drawing.Size(128, 19);
             this.chkDPIAware.TabIndex = 27;
-            this.chkDPIAware.Text = "DPI Awareness";
+            this.chkDPIAware.Text = "高DPI自动识别";
             this.chkDPIAware.UseVisualStyleBackColor = true;
             this.chkDPIAware.CheckedChanged += new System.EventHandler(this.chkDPIAware_CheckedChanged);
             // 
@@ -2452,17 +2643,20 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.groupBox9.Controls.Add(this.label6);
             this.groupBox9.Controls.Add(this.linkWebsite);
-            this.groupBox9.Location = new System.Drawing.Point(12, 494);
+            this.groupBox9.Location = new System.Drawing.Point(16, 570);
+            this.groupBox9.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.groupBox9.Name = "groupBox9";
-            this.groupBox9.Size = new System.Drawing.Size(418, 64);
+            this.groupBox9.Padding = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.groupBox9.Size = new System.Drawing.Size(557, 74);
             this.groupBox9.TabIndex = 5;
             this.groupBox9.TabStop = false;
             // 
             // label6
             // 
-            this.label6.Location = new System.Drawing.Point(6, 34);
+            this.label6.Location = new System.Drawing.Point(8, 39);
+            this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(400, 23);
+            this.label6.Size = new System.Drawing.Size(533, 27);
             this.label6.TabIndex = 6;
             this.label6.Text = "100% Free Software and Support. If you paid for anything, you got scammed.";
             this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -2470,9 +2664,10 @@
             // linkWebsite
             // 
             this.linkWebsite.LinkBehavior = System.Windows.Forms.LinkBehavior.NeverUnderline;
-            this.linkWebsite.Location = new System.Drawing.Point(6, 12);
+            this.linkWebsite.Location = new System.Drawing.Point(8, 14);
+            this.linkWebsite.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.linkWebsite.Name = "linkWebsite";
-            this.linkWebsite.Size = new System.Drawing.Size(400, 23);
+            this.linkWebsite.Size = new System.Drawing.Size(533, 27);
             this.linkWebsite.TabIndex = 5;
             this.linkWebsite.TabStop = true;
             this.linkWebsite.Text = "https://mapassist.github.io/";
@@ -2482,28 +2677,30 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = global::MapAssist.Properties.Resources.Banner;
-            this.pictureBox1.Location = new System.Drawing.Point(12, 12);
+            this.pictureBox1.Location = new System.Drawing.Point(16, 14);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(416, 117);
+            this.pictureBox1.Size = new System.Drawing.Size(555, 135);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 6;
             this.pictureBox1.TabStop = false;
             // 
             // ConfigEditor
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(442, 570);
+            this.ClientSize = new System.Drawing.Size(589, 658);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.groupBox9);
             this.Controls.Add(this.tabControl1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "ConfigEditor";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "MapAssist - Configuration";
+            this.Text = "MapAssist 设置";
             this.TopMost = true;
             this.Shown += new System.EventHandler(this.ConfigEditor_Shown);
             this.tabControl1.ResumeLayout(false);
